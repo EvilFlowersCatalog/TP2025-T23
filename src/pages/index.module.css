@@ -1,0 +1,53 @@
+.heroBanner {
+  height: 100vh;
+  background: linear-gradient(
+    -45deg,
+    var(--ifm-color-primary-lightest),
+    var(--ifm-color-primary-light),
+    var(--ifm-color-primary-dark)
+  );
+}
+
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5rem;
+  justify-self: left;
+  color: var(--color-title);
+}
+
+.animation {
+  height: 500px;
+  justify-self: flex-end;
+  margin-right: -50px;
+}
+
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  text-align: left;
+  color: var(--color-description);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
