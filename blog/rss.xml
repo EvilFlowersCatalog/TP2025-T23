@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Team 23 Blog</title>
+        <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog</link>
+        <description>Team 23 Blog</description>
+        <lastBuildDate>Wed, 15 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Zápisnica zo stretnutia č. 1]]></title>
+            <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog/first-record</link>
+            <guid>https://EvilFlowersCatalog.dev/TP2025-T23/blog/first-record</guid>
+            <pubDate>Wed, 15 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meeting 1]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 1" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting1-1355a6ed79d3382240daa0de85db7c2b.JPG" width="768" height="384" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/first-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 15.10.2025<br>
+<strong>Čas:</strong> 14:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Juraj Budinský</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/first-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->✅ Juraj Budinský<br>
+<!-- -->✅ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/first-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p>Na prvom tímovom stretnutí sa riešila agenda týkajúca sa rozdelenia do tímov, metodík a plánovania práce na projekte:</p>
+<ul>
+<li class="">Rozoberal sa návrh projektu – chceme využiť existujúce extraktory na tabuľky a obrázky (figures) a doplniť ich o vlastný systém s LLM modelom na opis a vyhľadávanie obrázkov a textov.</li>
+<li class="">Diskutovalo sa o vytvorení webovej stránky – má byť verejne dostupná, ľahko aktualizovateľná, vytvorená cez statický generátor.</li>
+<li class="">Bola prebrané komunikačné nástroje – treba rozhodnúť, aké nástroje sa budú používať (napr. Jira alebo Asana).</li>
+<li class="">Diskutovalo sa o SCRUM frameworku – rozhodovalo sa o dĺžke sprintov a o ich harmonograme.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/first-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
+<ol>
+<li class="">Založiť projekt v Jire alebo Asane.</li>
+<li class="">Vytvorť webovú stránku pre projekt, vrátane sekcie na zápisnice.</li>
+<li class="">Rozdeliť sa do tímov a určiť, kto má na starosti jednotlivé oblasti.</li>
+<li class="">Pripraviť mind mapu s rozdelením tém a úloh, ktoré chceme v projekte realizovať.</li>
+</ol>]]></content:encoded>
+            <category>zimný semester</category>
+        </item>
+    </channel>
+</rss>
