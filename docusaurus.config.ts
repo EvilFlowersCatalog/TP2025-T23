@@ -23,6 +23,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'EvilFlowersCatalog', // Usually your GitHub org/user name.
   projectName: 'TP2025-T23', // Usually your repo name.
+  deploymentBranch: 'deployment',
 
   onBrokenLinks: 'throw',
 
