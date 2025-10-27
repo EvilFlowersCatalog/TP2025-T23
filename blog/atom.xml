@@ -33,7 +33,7 @@
 <p>Na druhom stretnutí sa preberali najmä technické úlohy a plánovanie ďalších krokov v tímoch:</p>
 <ul>
 <li class="">Tím si potvrdil používanie Asany ako hlavného nástroja na riadenie projektov namiesto Jiry, taktiež sa riešilo doplnenie metodík do webovej stránky.</li>
-<li class="">Prebhla diskusia o úlohách v rámci jednotlivých tímov: <strong>Data Science tím</strong> bude pracovať na vektorovom vyhľadávaní, embeddingoch a rankingoch, <strong>System Engineering tím</strong> sa zameria na systémovú architektúru a pipelines, <strong>Frontend/UX tím</strong> bude pokračovať v redizajne používateľského rozhrania, konkrétne sa zameria na klasické a inteligentné vyhľadávanie.</li>
+<li class="">Prebehla diskusia o úlohách v rámci jednotlivých tímov: <strong>Data Science tím</strong> bude pracovať na vektorovom vyhľadávaní, embeddingoch a rankingoch, <strong>System Engineering tím</strong> sa zameria na systémovú architektúru a pipelines, <strong>Frontend/UX tím</strong> bude pokračovať v redizajne používateľského rozhrania, konkrétne sa zameria na klasické a inteligentné vyhľadávanie.</li>
 <li class="">Diskutovalo sa o možnostiach pridania AI funkcií do aplikácie – napríklad odporúčania podobných kníh alebo vyhľadanie súvisiacich publikácií na základe označeného textu.</li>
 <li class="">V najbližších dvoch týždňoch sa vytvorí zoznam funkcií (features) s akceptačnými testami, ktoré sa budú postupne implementovať, a roadmapy. Cieľom je pretransformovať technické riešenia na konkrétne používateľské funkcie.</li>
 </ul>
