@@ -80,6 +80,7 @@ const config: Config = {
           position: 'left',
           label: 'Dokumentácia',
         },
+        {to: '/methodology', label: 'Metodika', position: 'left'},
         {
           href: 'https://github.com/EvilFlowersCatalog',
           label: 'GitHub',
