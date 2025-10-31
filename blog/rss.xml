@@ -4,17 +4,57 @@
         <title>Team 23 Blog</title>
         <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog</link>
         <description>Team 23 Blog</description>
-        <lastBuildDate>Wed, 22 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Zápisnica zo stretnutia č. 3]]></title>
+            <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog/third-record</link>
+            <guid>https://EvilFlowersCatalog.dev/TP2025-T23/blog/third-record</guid>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meeting 3]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 3" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting3-6358ec43c631ddf331d328ccd9505440.JPG" width="832" height="448" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/third-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 29.10.2025<br>
+<strong>Čas:</strong> 14:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/third-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->✅ Juraj Budinský<br>
+<!-- -->✅ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/third-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p>Na treťom stretnutí sa pokračovalo v rozdelovaní úloh a špecifikovaní navrhovaného systému a jednotlivých procesov:</p>
+<ul>
+<li class="">Diskutovalo sa o navrhnutých systémových komponentoch. Je potrebné upraviť diagram a špecifikovať procesy prostredníctvom sekvenčných diagramov a grafu závislostí.</li>
+<li class="">Riešila sa integrácia Dataverse s EvilFlowers serverom, spôsoby komunikáce, možnosti vytvorenia databáz a repozitárov, synchronizácia. Bolo opísané súčasné riešenie a jeho nedostatky.</li>
+<li class=""><strong>System Engineering tím</strong> diskutoval o existujúcej microservice architektúre, o background procesoch a technologických riešeniach (Celery, Kafka).</li>
+<li class="">Preberali sa možné spôsoby UX analýzy a redizajnu vyhľadávania. V nasledujúcich týždňoch prebehne analýza predchádzajúcich testovaní a vytvorenie zoznamu problémov.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/third-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
+<ol>
+<li class="">Dokončiť roadmapy.</li>
+<li class=""><strong>System Engineering tím</strong> - naštudovať dokumentáciu k EvilFlowers systému, analýza funkcionality jednotlivých komponentov.</li>
+<li class=""><strong>Data Science tím</strong> - pripraviť návrh procesov (sequence diagram, activity diagram, dependency graph).</li>
+<li class=""><strong>Data Science tím</strong> - lokálne spustenie Dataverse, spraviť sequence diagram.</li>
+<li class=""><strong>UX tím</strong> - analýza predchádzajúcich testovaní použiteľnosti, návrh testovania zameraného na vyhľadávanie.</li>
+</ol>]]></content:encoded>
+            <category>zimný semester</category>
+        </item>
         <item>
             <title><![CDATA[Zápisnica zo stretnutia č. 2]]></title>
             <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog/second-record</link>
             <guid>https://EvilFlowersCatalog.dev/TP2025-T23/blog/second-record</guid>
             <pubDate>Wed, 22 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Meeting 2]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 2" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting2-4b8a9bfa52cc79ab853c0fd207fbb0cc.JPG" width="832" height="448" class="img_ev3q"></p>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 2" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting2-7cd45e44054c8cc4d796a5d34c2ea993.JPG" width="832" height="448" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/second-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
 <p><strong>Dátum:</strong> Streda 22.10.2025<br>
 <strong>Čas:</strong> 14:00<br>
@@ -34,7 +74,7 @@
 <p>Na druhom stretnutí sa preberali najmä technické úlohy a plánovanie ďalších krokov v tímoch:</p>
 <ul>
 <li class="">Tím si potvrdil používanie Asany ako hlavného nástroja na riadenie projektov namiesto Jiry, taktiež sa riešilo doplnenie metodík do webovej stránky.</li>
-<li class="">Prebehla diskusia o úlohách v rámci jednotlivých tímov: <strong>Data Science tím</strong> bude pracovať na vektorovom vyhľadávaní, embeddingoch a rankingoch, <strong>System Engineering tím</strong> sa zameria na systémovú architektúru a pipelines, <strong>Frontend/UX tím</strong> bude pokračovať v redizajne používateľského rozhrania, konkrétne sa zameria na klasické a inteligentné vyhľadávanie.</li>
+<li class="">Prebehla diskusia o úlohách v rámci jednotlivých tímov: <strong>Data Science tím</strong> bude pracovať na vektorovom vyhľadávaní, embeddingoch a rankingoch, <strong>System Engineering tím</strong> sa zameria na systémovú architektúru a pipelines, <strong>UX tím</strong> bude pokračovať v redizajne používateľského rozhrania, konkrétne sa zameria na klasické a inteligentné vyhľadávanie.</li>
 <li class="">Diskutovalo sa o možnostiach pridania AI funkcií do aplikácie – napríklad odporúčania podobných kníh alebo vyhľadanie súvisiacich publikácií na základe označeného textu.</li>
 <li class="">V najbližších dvoch týždňoch sa vytvorí zoznam funkcií (features) s akceptačnými testami, ktoré sa budú postupne implementovať, a roadmapy. Cieľom je pretransformovať technické riešenia na konkrétne používateľské funkcie.</li>
 </ul>
