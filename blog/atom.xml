@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog</id>
     <title>Team 23 Blog</title>
-    <updated>2025-10-29T00:00:00.000Z</updated>
+    <updated>2025-11-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://EvilFlowersCatalog.dev/TP2025-T23/blog"/>
     <subtitle>Team 23 Blog</subtitle>
     <icon>https://EvilFlowersCatalog.dev/TP2025-T23/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Zápisnica zo stretnutia č. 4]]></title>
+        <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/fourth-record</id>
+        <link href="https://EvilFlowersCatalog.dev/TP2025-T23/blog/fourth-record"/>
+        <updated>2025-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meeting 4]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 4" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting4-40dc2fb54650420ca4cddf6cf47a884a.JPG" width="832" height="448" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fourth-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 5.11.2025<br>
+<strong>Čas:</strong> 14:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fourth-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->✅ Juraj Budinský<br>
+<!-- -->✅ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fourth-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p>Na štvrtom stretnutí sa preberala nasledovná agenda:</p>
+<ul>
+<li class="">Preberali sa vytvorené roadmapy a sekvenčné diagramy, <strong>Data Science tím</strong> riešil databázovú schému a špecifikáciu API vrstvy.</li>
+<li class="">Diskutovalo sa o analytike vyhľadávania, atribútoch kníh a rozdieloch medzi kategóriami (categories) a skupinami (feeds) v súvislosti s UX analýzou Elvíry.</li>
+<li class=""><strong>System Engineering tím</strong> pokračoval v študovaní dokumentácie, riešili sa funkcionality a štruktúra Dataverse.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fourth-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>UX tím</strong> - navrhnúť, vykonať a zdokumentovať testovanie použiteľnosti zamerané na vyhľadávanie.</li>
+<li class=""><strong>System Engineering tím</strong> - pokračovať v štúdiu dokumentácie, rozbehanie Dataverse.</li>
+<li class=""><strong>System Engineering tím</strong> - návrh synchronizácie a štruktúry dokumentov, sekvenčný diagram.</li>
+</ol>]]></content>
+        <author>
+            <name>Adriana Pikartová</name>
+        </author>
+        <category label="zimný semester" term="zimný semester"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zápisnica zo stretnutia č. 3]]></title>
         <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/third-record</id>
