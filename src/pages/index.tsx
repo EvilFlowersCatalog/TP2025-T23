@@ -9,6 +9,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import Lottie from 'lottie-react';
 import animationData from '@site/static/animation.json';
+import HomepageBlogPosts from '@site/src/components/HomepageBlogPosts';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -47,6 +48,7 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageBlogPosts />
       </main>
     </Layout>
   );
