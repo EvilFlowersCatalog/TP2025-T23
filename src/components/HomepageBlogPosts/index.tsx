@@ -23,7 +23,6 @@ function blogPost(post) {
 }
 
 export default function HomepageBlogPosts() {
-    console.log(blogPosts);
     return (
         <section className={styles.recentPostsContainer}>
             <h2 className={styles.recentPostsTitle}>Najnovšie príspevky</h2>
