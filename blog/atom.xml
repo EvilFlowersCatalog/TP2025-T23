@@ -2,11 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog</id>
     <title>Team 23 Blog</title>
-    <updated>2025-11-05T00:00:00.000Z</updated>
+    <updated>2025-11-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://EvilFlowersCatalog.dev/TP2025-T23/blog"/>
     <subtitle>Team 23 Blog</subtitle>
     <icon>https://EvilFlowersCatalog.dev/TP2025-T23/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Zápisnica zo stretnutia č. 5]]></title>
+        <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/fifth-record</id>
+        <link href="https://EvilFlowersCatalog.dev/TP2025-T23/blog/fifth-record"/>
+        <updated>2025-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meeting 5]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 5" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting5-3a658fe7efbc12f64ef800b82865d981.JPG" width="832" height="448" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fifth-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 26.11.2025<br>
+<strong>Čas:</strong> 14:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fifth-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->✅ Juraj Budinský<br>
+<!-- -->✅ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fifth-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p><strong>Data Science tím 1</strong> začal pracovať na text procesore a semantic service. Preberali sa vhodné modely na embeddingy, vzhľadom na rôzne jazyky kníh v datasete sa použije multilingual model. Tím vylepšil text procesor, aktuálne rozlišuje medzi OCR súborom a konvenčným PDF súborom. Ďalej sa riešila architektúra projektu, štruktúra text procesora.</p>
+<p><strong>Data Science tím 2</strong> lokálne rozbehal Dataverse a spravil script na synchronizáciu pridávania kníh s EvilFlowers serverom. Tiež sa preberala existujúca microservice architektúra a protokoly. Debatovalo sa o možnostiach sťahovania a ukladania kníh z Dataverse.</p>
+<p><strong>System Engineering tím</strong> spravil sekvenčné diagramy k microservice architektúre. Riešila sa aktuálna integrácia, výhody a nevýhody Kafky a využitie Celery. Tiež sa preberala dokumentácia z predchádzajúceho tímového projektu k Dataverse.</p>
+<p><strong>UX tím</strong> zrealizoval a vyhodnotil testovanie a spísal analýzu vyhľadávania v Elvíre. Na základe analýzy bol vytvorený low-fidelity prototyp, ktorý bol na stretnutí prediskutovaný. Taktiež sa diskutovalo o inteligentných funkcionalitách, ktoré sa v nasledujúcich týždňoch budú navrhovať.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fifth-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>Data Science tím 1</strong> - pokračovať v implementácii text procesora a vektorovej databázy.</li>
+<li class=""><strong>Data Science tím 2</strong> - preštudovať kód a navrhnúť integráciu Dataverse so serverom v produkcii.</li>
+<li class=""><strong>System Engineering tím</strong> - študovať dokumentáciu, implementáciu Celery mikroprocesov.</li>
+<li class=""><strong>UX tím</strong> - vytvoriť high-fidelity prototyp vyhľadávania.</li>
+</ol>]]></content>
+        <author>
+            <name>Adriana Pikartová</name>
+        </author>
+        <category label="zimný semester" term="zimný semester"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zápisnica zo stretnutia č. 4]]></title>
         <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/fourth-record</id>
