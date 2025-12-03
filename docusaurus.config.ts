@@ -43,6 +43,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
         },
         blog: {
+          blogSidebarTitle: 'Všetky zápisnice',
+          blogSidebarCount: 'ALL',
           showReadingTime: false,
           feedOptions: {
             type: ['rss', 'atom'],
