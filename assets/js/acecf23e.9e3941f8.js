@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunktp_2025_t_23=globalThis.webpackChunktp_2025_t_23||[]).push([[903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/TP2025-T23/blog","blogTitle":"Blog","authorsListPath":"/TP2025-T23/blog/authors"}')}}]);

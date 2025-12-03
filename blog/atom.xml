@@ -2,11 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog</id>
     <title>Team 23 Blog</title>
-    <updated>2025-11-26T00:00:00.000Z</updated>
+    <updated>2025-12-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://EvilFlowersCatalog.dev/TP2025-T23/blog"/>
     <subtitle>Team 23 Blog</subtitle>
     <icon>https://EvilFlowersCatalog.dev/TP2025-T23/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Zápisnica zo stretnutia č. 6]]></title>
+        <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/sixth-record</id>
+        <link href="https://EvilFlowersCatalog.dev/TP2025-T23/blog/sixth-record"/>
+        <updated>2025-12-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meeting 6]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 6" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting6-1ae542fbc3c1678725dce6e19090cd08.JPG" width="832" height="448" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/sixth-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 3.12.2025<br>
+<strong>Čas:</strong> 12:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/sixth-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->✅ Juraj Budinský<br>
+<!-- -->✅ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/sixth-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p>V krátkosti sa prebralo, čo jednotlivé tímy spravili. Je treba zdokumentovať doterajšiu prácu a analýzu kódu a dať ju na stránku.</p>
+<p><strong>Data Science tím 1</strong> lokálne rozbehol Milvus databázu a ďalej pracoval na text procesore. Debatovalo sa o hierarchii indexu, o použití LlamaIndex, funkcionalite text extractora a spracovávaní metadát.</p>
+<p><strong>Data Science tím 2</strong> a <strong>System Engineering tím</strong> pokračovali v štúdiu dokumentácie a kódu k Dataverse. Riešila sa štruktúra existujúcej implementácie a postup lokálneho nasadenia.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/sixth-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>Data Science tím 1</strong> - spojiť Milvus s text procesorom, zdokumentovať analýzu a doterajšiu prácu.</li>
+<li class=""><strong>Data Science tím 2</strong> - navrhnúť integráciu Dataverse so serverom, zdokumentovať analýzu.</li>
+<li class=""><strong>System Engineering tím</strong> - rozbehať Celery lokálne, zdokumentovať analýzu.</li>
+<li class=""><strong>UX tím</strong> - pokračovať v high-fidelity prototype.</li>
+</ol>]]></content>
+        <author>
+            <name>Adriana Pikartová</name>
+        </author>
+        <category label="zimný semester" term="zimný semester"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zápisnica zo stretnutia č. 5]]></title>
         <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/fifth-record</id>
