@@ -43,3 +43,12 @@
   padding: 1.5rem;
 }
 
+code,
+.token.plain {
+  color: #4057B1; 
+}
+
+[data-theme='dark'] code,
+[data-theme='dark'] .token.plain {
+  color: #a4b2eb;
+}
