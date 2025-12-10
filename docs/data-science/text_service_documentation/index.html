@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-data-science/text_service_documentation" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">EvilFlowers Text Service | Team 23</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://EvilFlowersCatalog.dev/TP2025-T23/img/logo.png"><meta data-rh="true" name="twitter:image" content="https://EvilFlowersCatalog.dev/TP2025-T23/img/logo.png"><meta data-rh="true" property="og:url" content="https://EvilFlowersCatalog.dev/TP2025-T23/docs/data-science/text_service_documentation"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="EvilFlowers Text Service | Team 23"><meta data-rh="true" name="description" content="1. Účel systému"><meta data-rh="true" property="og:description" content="1. Účel systému"><link data-rh="true" rel="icon" href="/TP2025-T23/img/logo.png"><link data-rh="true" rel="canonical" href="https://EvilFlowersCatalog.dev/TP2025-T23/docs/data-science/text_service_documentation"><link data-rh="true" rel="alternate" href="https://EvilFlowersCatalog.dev/TP2025-T23/docs/data-science/text_service_documentation" hreflang="en"><link data-rh="true" rel="alternate" href="https://EvilFlowersCatalog.dev/TP2025-T23/docs/data-science/text_service_documentation" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Data Science","item":"https://EvilFlowersCatalog.dev/TP2025-T23/docs/category/data-science"},{"@type":"ListItem","position":2,"name":"EvilFlowers Text Service","item":"https://EvilFlowersCatalog.dev/TP2025-T23/docs/data-science/text_service_documentation"}]}</script><link rel="alternate" type="application/rss+xml" href="/TP2025-T23/blog/rss.xml" title="Team 23 RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/TP2025-T23/blog/atom.xml" title="Team 23 Atom Feed"><link rel="stylesheet" href="/TP2025-T23/assets/css/styles.7f53d7e8.css">
+<script src="/TP2025-T23/assets/js/runtime~main.bb104ddf.js" defer="defer"></script>
+<script src="/TP2025-T23/assets/js/main.6be2c15c.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/TP2025-T23/img/logo.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/TP2025-T23/"><div class="navbar__logo"><img src="/TP2025-T23/img/logo.png" alt="Team Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/TP2025-T23/img/logo.png" alt="Team Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Team 23</b></a><a class="navbar__item navbar__link" href="/TP2025-T23/blog">Zápisnice</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/TP2025-T23/docs/intro">Dokumentácia</a><a class="navbar__item navbar__link" href="/TP2025-T23/methodology">Metodika</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/EvilFlowersCatalog" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/TP2025-T23/docs/intro"><span title="Dokumentácia" class="linkLabel_WmDU">Dokumentácia</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/TP2025-T23/docs/category/data-science"><span title="Data Science" class="categoryLinkLabel_W154">Data Science</span></a><button aria-label="Collapse sidebar category &#x27;Data Science&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/TP2025-T23/docs/data-science/diagrams"><span title="Diagramy" class="linkLabel_WmDU">Diagramy</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/TP2025-T23/docs/data-science/text_service_documentation"><span title="EvilFlowers Text Service" class="linkLabel_WmDU">EvilFlowers Text Service</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/TP2025-T23/docs/category/system-engineering"><span title="System Engineering" class="categoryLinkLabel_W154">System Engineering</span></a><button aria-label="Expand sidebar category &#x27;System Engineering&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/TP2025-T23/docs/category/ux"><span title="UX" class="categoryLinkLabel_W154">UX</span></a><button aria-label="Expand sidebar category &#x27;UX&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/TP2025-T23/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/TP2025-T23/docs/category/data-science"><span>Data Science</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">EvilFlowers Text Service</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>EvilFlowers Text Service</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-účel-systému">1. Účel systému<a href="#1-účel-systému" class="hash-link" aria-label="Direct link to 1. Účel systému" title="Direct link to 1. Účel systému" translate="no">​</a></h2>
+<p>Systém zabezpečuje plnohodnotný kanál od akademického PDF dokumentu až po sémantické vyhľadávanie nad uloženými vektorovými reprezentáciami textu. Cieľom je:</p>
+<ul>
+<li class="">bezstratovo extrahovať text (vrátane slovenskej diakritiky),</li>
+<li class="">konzistentne ho štruktúrovať (strany, odseky, vety),</li>
+<li class="">pripraviť embeddingy vhodné pre multijazyčné sémantické vyhľadávanie,</li>
+<li class="">ukladať ich do vektorovej databázy Milvus,</li>
+<li class="">sprístupniť vyhľadávanie cez API / mikroslužby (Django, Celery, Kafka),</li>
+<li class="">umožniť škálovanie na desiatky až stovky tisíc dokumentov.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-high-level-architektúra">2. High-level architektúra<a href="#2-high-level-architektúra" class="hash-link" aria-label="Direct link to 2. High-level architektúra" title="Direct link to 2. High-level architektúra" translate="no">​</a></h2>
+<p>End-to-end tok:</p>
+<p><strong>1. Vstup dokumentu</strong></p>
+<ul>
+<li class="">Zdroj: lokálny súbor, upload cez API, správa z Kafka topicu (napr. „nový PDF dokument“).</li>
+<li class="">Dokument je uložený v súborovom systéme / objektovom storage (napr. S3/MinIO).</li>
+</ul>
+<p><strong>2. TextHandler / TextExtractor</strong></p>
+<ul>
+<li class="">Na základe typu PDF:<!-- -->
+<ul>
+<li class="">digitálne PDF → priama extrakcia textu cez PyMuPDF,</li>
+<li class="">naskenované PDF → OCR pipeline cez <code>ocrmypdf</code> + <code>pytesseract</code>.
+Výstup: štruktúrovaný zoznam strán vo forme slovníkov:</li>
+</ul>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;page_num&#x27;: int,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;text&#x27;: str,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;paragraphs&#x27;: List[str],</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;sentences&#x27;: List[str]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">} </span><br></span></code></pre></div></div>
+</li>
+<li class="">Voliteľne aj TOC (obsah) v samostatnej štruktúre.</li>
+</ul>
+<p><strong>3. TextProcessor (chunkovanie pre embeddingy)</strong></p>
+<p>Post-processing extrahovaného textu:</p>
+<ul>
+<li class="">detekcia jazyka (slovenčina / angličtina),</li>
+<li class="">sémantické delenie na bloky vhodné pre embedding (napr. 512 tokenov, prekrytie 50 tokenov),</li>
+<li class="">príprava metadát (ID dokumentu, číslo strany, index odseku, dĺžka textu).</li>
+</ul>
+<p>V aktuálnej implementácii je chunkovanie realizované priamo v <code>SemanticIndexer._prepare_chunks()</code> na úrovni strán/odsekov; neskôr sa rozšíri o LlamaIndex SentenceSplitter.</p>
+<p><strong>4. SemanticIndexer</strong></p>
+<p>Zodpovedný za:</p>
+<ul>
+<li class="">prípravu chunkov z dát TextHandleru/Processoru,</li>
+<li class="">generovanie embeddingov pomocou <code>EmbeddingGenerator</code>,</li>
+<li class="">uloženie embeddingov a metadát do Milvus cez <code>MilvusManager</code>.</li>
+</ul>
+<p><strong>5. MilvusManager (vektorová databáza)</strong></p>
+<p>Správa kolekcie vo vektorovej DB Milvus / Milvus Lite:</p>
+<ul>
+<li class="">schéma,</li>
+<li class="">indexy (HNSW / AUTOINDEX),</li>
+<li class="">insert, search, delete, štatistiky.</li>
+</ul>
+<p><strong>6. SemanticSearch</strong></p>
+<ul>
+<li class="">Generuje embedding pre dopyt (fulltextová veta alebo otázka),</li>
+<li class="">vykoná vektorovú query nad Milvus,</li>
+<li class="">vráti najrelevantnejšie úseky textu s metadátami (skóre, strana, typ chunka, náhľad textu).</li>
+</ul>
+<p><strong>7. Orchestrácia a integrácia</strong></p>
+<ul>
+<li class="">Django REST API poskytuje HTTP endpointy:<!-- -->
+<ul>
+<li class="">upload dokumentu a jeho indexovanie,</li>
+<li class="">sémantické vyhľadávanie,</li>
+<li class="">diagnostické endpointy (štatistiky kolekcie).</li>
+</ul>
+</li>
+<li class="">Celery worker vykonáva ťažšie úlohy (extrakcia textu, embeddingy, indexovanie).</li>
+<li class="">Kafka topic slúži na integráciu s externými systémami (napr. Dataverse, iné repozitáre); správa obsahuje metadá o dokumente a cestu k PDF.</li>
+</ul>
+<p><strong>8. Testovanie a validácia</strong></p>
+<p>Špeciálny integračný test <code>test_milvus_local.py</code>:</p>
+<ul>
+<li class="">spúšťa pipeline nad reálnym PDF alebo nad vzorkou dát,</li>
+<li class="">používa Milvus Lite (embedded DB),</li>
+<li class="">overuje extrakciu, indexovanie, vyhľadávanie aj štatistiky kolekcie.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-komponenty">3. Komponenty<a href="#3-komponenty" class="hash-link" aria-label="Direct link to 3. Komponenty" title="Direct link to 3. Komponenty" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-textextractor">3.1 TextExtractor<a href="#31-textextractor" class="hash-link" aria-label="Direct link to 3.1 TextExtractor" title="Direct link to 3.1 TextExtractor" translate="no">​</a></h3>
+<p>Zodpovedá za všetku logiku okolo PDF:</p>
+<ul>
+<li class="">Validácia cesty k dokumentu.</li>
+<li class="">Otvorenie dokumentu cez <code>fitz.open</code>.</li>
+<li class="">Metóda <code>_is_digital(doc)</code> rozhoduje medzi digitálnym a OCR režimom:<!-- -->
+<ul>
+<li class="">prechádza prvých N strán (max. 30),</li>
+<li class="">ak nájde dostatočne dlhý extrahovateľný text, dokument sa považuje za digitálny.</li>
+</ul>
+</li>
+<li class="">Metóda <code>extract()</code> je jediný vstupný bod:<!-- -->
+<ul>
+<li class="">pri digitálnom dokumente volá <code>_extract_digital(doc)</code>,</li>
+<li class="">pri naskenovanom dokumente volá <code>_extract_ocr()</code>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Digitálna vetva (<code>_extract_digital</code>)</strong></p>
+<ul>
+<li class="">
+<p>Používa <code>page.get_text(&quot;blocks&quot;)</code> pre získanie blokov textu s pozíciou.</p>
+</li>
+<li class="">
+<p>Každý blok prechádza funkciou <code>_clean_whitespace</code>:</p>
+<ul>
+<li class="">opravuje hyfenizované word-\nwrap,</li>
+<li class="">nahrádza nové riadky medzerami,</li>
+<li class="">zjednocuje viacnásobné medzery.</li>
+</ul>
+</li>
+<li class="">
+<p>Z blokov sa vytvára:</p>
+<ul>
+<li class=""><code>page_text</code> – text celej strany,</li>
+<li class=""><code>page_paragraphs</code> – bloky dlhšie ako definovaný prah,</li>
+<li class=""><code>page_sentences</code> – rozdelenie na vety cez <code>nltk.sent_tokenize</code>.</li>
+</ul>
+</li>
+</ul>
+<p>Výsledok pre každú stranu:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;page_num&#x27;: page_num,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;text&#x27;: page_text, </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;paragraphs&#x27;: page_paragraphs, </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &#x27;sentences&#x27;: page_sentences</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre></div></div>
+<p><strong>OCR vetva (<code>_extract_ocr</code>)</strong></p>
+<ul>
+<li class="">Dokument sa spracuje cez <code>ocrmypdf.ocr</code> do bufferu <code>BytesIO</code>.</li>
+<li class="">Následne sa PDF-byty konvertujú na bitmapové strany (<code>pdf2image.convert_from_bytes</code>).</li>
+<li class="">Z každej strany sa pomocou <code>pytesseract.image_to_string</code> vytiahne text.</li>
+<li class=""><code>_split_into_paragraphs</code> rozdelí text na odseky s heuristikami pre:<!-- -->
+<ul>
+<li class="">hlavičky (ABSTRACT, INTRODUCTION, atď.),</li>
+<li class="">kontaktné riadky (department, university, email),</li>
+<li class="">pokračovanie viet.</li>
+</ul>
+</li>
+<li class="">Vety sa pri OCR vetve skladajú jednoduchším delením na „.“ s čistením.</li>
+</ul>
+<p><strong>TOC (obsah)</strong></p>
+<ul>
+<li class=""><code>_check_toc</code> obsahuje základnú heuristiku na detekciu prítomnosti obsahu.</li>
+<li class=""><code>_extract_toc</code> je zatiaľ stub – bude doplnený podľa potreby:<!-- -->
+<ul>
+<li class="">extrakcia štruktúrovanej hierarchie kapitola → podkapitola → strana,</li>
+<li class="">použitie pre navigáciu pri vyhľadávaní / zobrazení výsledkov.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-texthandler--textservice">3.2 TextHandler / TextService<a href="#32-texthandler--textservice" class="hash-link" aria-label="Direct link to 3.2 TextHandler / TextService" title="Direct link to 3.2 TextHandler / TextService" translate="no">​</a></h3>
+<ul>
+<li class=""><code>TextHandler</code> zapúzdruje prácu s <code>TextExtractor</code> a prípadné ďalšie kroky (napr. detekcia TOC).</li>
+<li class="">Typický tok:<!-- -->
+<ul>
+<li class="">inicializácia <code>TextHandler(pdf_path)</code>,</li>
+<li class="">volanie <code>extract_text(found_toc=False)</code>,</li>
+<li class="">návrat <code>pages, toc</code>.</li>
+</ul>
+</li>
+<li class=""><code>TextService</code> môže poskytovať vyššiu vrstvu:<!-- -->
+<ul>
+<li class="">koordinácia ukladania surových strán do DB,</li>
+<li class="">volanie <code>SemanticIndexer</code>,</li>
+<li class="">logovanie a audit (čas spracovania, počty strán, jazyky).</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-semanticindexer">3.3 SemanticIndexer<a href="#33-semanticindexer" class="hash-link" aria-label="Direct link to 3.3 SemanticIndexer" title="Direct link to 3.3 SemanticIndexer" translate="no">​</a></h3>
+<p>Zodpovedný za transláciu text → embedding → Milvus.</p>
+<ul>
+<li class="">Pri inicializácii vytvára:<!-- -->
+<ul>
+<li class=""><code>EmbeddingGenerator</code> (model),</li>
+<li class=""><code>MilvusManager</code> (kolekcia).</li>
+</ul>
+</li>
+<li class="">Metóda <code>index_document(document_id, pages)</code>:<!-- -->
+<ul>
+<li class="">Zavolá <code>_prepare_chunks(pages)</code>:<!-- -->
+<ul>
+<li class="">podľa <code>SemanticConfig.CHUNK_LEVEL</code> (paragraph / page),</li>
+<li class="">pri odsekoch filtruje <code>_is_valid_paragraph</code> (minimálny počet slov, filtrácia boilerplate typu Table of Contents, Zoznam obrázkov).</li>
+</ul>
+</li>
+<li class="">Pre vzniknuté <code>chunks: List[str]</code> vygeneruje embeddingy:<!-- -->
+<ul>
+<li class=""><code>EmbeddingGenerator.generate_embeddings(...)</code>.</li>
+</ul>
+</li>
+<li class="">Zavolá <code>MilvusManager.insert_embeddings(...)</code> s embeddingmi a metadátami:<!-- -->
+<ul>
+<li class=""><code>page_num</code>,</li>
+<li class=""><code>chunk_type</code> (paragraph / page),</li>
+<li class="">index odseku,</li>
+<li class="">text (truncovaný na 2000 znakov),</li>
+<li class="">dĺžka textu.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">Návratová hodnota obsahuje:<!-- -->
+<ul>
+<li class=""><code>success</code>,</li>
+<li class=""><code>chunks_indexed</code>,</li>
+<li class=""><code>chunk_level</code>,</li>
+<li class=""><code>embedding_dim</code>,</li>
+<li class=""><code>document_id</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="34-embeddinggenerator">3.4 EmbeddingGenerator<a href="#34-embeddinggenerator" class="hash-link" aria-label="Direct link to 3.4 EmbeddingGenerator" title="Direct link to 3.4 EmbeddingGenerator" translate="no">​</a></h3>
+<p>Generuje vektorové reprezentácie textu pomocou <code>sentence-transformers</code>.</p>
+<ul>
+<li class="">Model sa načítava na základe <code>SemanticConfig.MODEL_NAME</code>:<!-- -->
+<ul>
+<li class="">napr. BGE model (<code>BAAI/bge-m3</code>) alebo XLM-R sentence-transformers.</li>
+</ul>
+</li>
+<li class="">Používa konfigurované parametre:<!-- -->
+<ul>
+<li class=""><code>SemanticConfig.DEVICE</code> („cpu“ / „cuda“),</li>
+<li class=""><code>SemanticConfig.BATCH_SIZE</code>,</li>
+<li class=""><code>SemanticConfig.MAX_SEQUENCE_LENGTH</code>.</li>
+</ul>
+</li>
+<li class="">Metódy:<!-- -->
+<ul>
+<li class=""><code>generate_embeddings(texts: List[str], ...) -&gt; np.ndarray</code> – batchové spracovanie,</li>
+<li class=""><code>generate_single_embedding(text: str)</code> – zabalené volanie pre jeden dopyt,</li>
+<li class=""><code>get_model_info()</code> – diagnostika konfigurácie modelu.</li>
+</ul>
+</li>
+</ul>
+<p>Embeddingy sú typicky normalizované (<code>normalize_embeddings=True</code>), čo je vhodné pre COSINE metriku v Milvus.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="35-milvusmanager">3.5 MilvusManager<a href="#35-milvusmanager" class="hash-link" aria-label="Direct link to 3.5 MilvusManager" title="Direct link to 3.5 MilvusManager" translate="no">​</a></h3>
+<p>Abstrakcia nad vektorovou DB Milvus:</p>
+<ul>
+<li class="">Podporuje dva režimy:<!-- -->
+<ul>
+<li class=""><strong>Milvus Lite (embedded)</strong> – aktivovaný cez <code>USE_MILVUS_LITE=true</code>,<!-- -->
+<ul>
+<li class="">pripojenie cez <code>connections.connect(alias=&quot;default&quot;,</code> <code>uri=db_file)</code>,</li>
+<li class="">vhodné pre lokálny vývoj a integračné testy.</li>
+</ul>
+</li>
+<li class=""><strong>Milvus server</strong> – pripojenie na klasický Milvus cluster,<!-- -->
+<ul>
+<li class="">host/port sa číta z <code>SemanticConfig.MILVUS_HOST</code>, <code>MILVUS_PORT</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Schéma kolekcie</strong></p>
+<ul>
+<li class=""><code>id</code> – INT64, primárny kľúč, auto_id,</li>
+<li class=""><code>document_id</code> – VARCHAR(255),</li>
+<li class=""><code>page_num</code> – INT64,</li>
+<li class=""><code>chunk_type</code> – VARCHAR(50),</li>
+<li class=""><code>paragraph_idx</code> – INT64,</li>
+<li class=""><code>text</code> – VARCHAR(2000),</li>
+<li class=""><code>text_length</code> – INT64,</li>
+<li class=""><code>embedding</code> – FLOAT_VECTOR(dim = <code>SemanticConfig.EMBEDDING_DIM</code>),</li>
+<li class=""><code>created_at</code> – VARCHAR(50) (ISO timestamp).</li>
+</ul>
+<p><strong>Indexovanie</strong></p>
+<ul>
+<li class="">Milvus Lite:<!-- -->
+<ul>
+<li class=""><code>index_type = AUTOINDEX</code>,</li>
+<li class=""><code>metric_type = COSINE</code>.</li>
+</ul>
+</li>
+<li class="">Milvus server:<!-- -->
+<ul>
+<li class=""><code>index_type = HNSW</code>,</li>
+<li class="">parametre napr. <code>M=16</code>, <code>efConstruction=256</code>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>API metódy</strong></p>
+<ul>
+<li class=""><code>insert_embeddings(document_id, embeddings, metadata) -&gt; List[int]</code>
+<ul>
+<li class="">vloží embeddingy a metadá, flushne kolekciu.</li>
+</ul>
+</li>
+<li class=""><code>search(query_embedding, top_k, document_id=None, page_num=None) -&gt; List[Dict]</code>
+<ul>
+<li class="">podporuje filter cez <code>expr</code>:<!-- -->
+<ul>
+<li class="">podľa <code>document_id</code>,</li>
+<li class="">podľa <code>page_num</code>,</li>
+<li class="">alebo kombináciu.</li>
+</ul>
+</li>
+<li class="">vracia zoznam výsledkov s:<!-- -->
+<ul>
+<li class=""><code>id</code>, <code>score</code>, <code>distance</code>,</li>
+<li class=""><code>document_id</code>, <code>page_num</code>, <code>chunk_type</code>, <code>paragraph_idx</code>, <code>text</code>, <code>text_length</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><code>delete_by_document_id(document_id) -&gt; int</code>
+<ul>
+<li class="">hromadné zmazanie všetkých vektorov daného dokumentu.</li>
+</ul>
+</li>
+<li class=""><code>get_stats()</code>
+<ul>
+<li class="">názov kolekcie, počet entít, embedding_dim.</li>
+</ul>
+</li>
+<li class=""><code>close()</code>
+<ul>
+<li class="">uvoľnenie kolekcie a odpojenie.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="36-semanticsearch">3.6 SemanticSearch<a href="#36-semanticsearch" class="hash-link" aria-label="Direct link to 3.6 SemanticSearch" title="Direct link to 3.6 SemanticSearch" translate="no">​</a></h3>
+<p>Komponent na strane vyhľadávania (kód nie je uvedený, ale logika je daná použitím v testoch):</p>
+<p>Pri inicializácii:</p>
+<ol>
+<li class="">vytvára <code>EmbeddingGenerator</code>,</li>
+<li class="">vytvára <code>MilvusManager</code> alebo používa existujúcu instanciu (singleton).</li>
+</ol>
+<p>Metóda <code>search(query, top_k, document_id=None)</code>:</p>
+<ol>
+<li class="">vygeneruje embedding dopytu cez <code>EmbeddingGenerator.generate_single_embedding</code>,</li>
+<li class="">zavolá <code>MilvusManager.search(...)</code>,</li>
+<li class="">výsledky transformuje na slovníky:<!-- -->
+<ul>
+<li class=""><code>score</code>, <code>page_num</code>, <code>chunk_type</code>, <code>text</code>, prípadne ďalšie polia.</li>
+</ul>
+</li>
+</ol>
+<p>Použitie:</p>
+<ul>
+<li class="">priamo v integračnom teste,</li>
+<li class="">v API endpointoch (napr. <code>GET /search?query=...&amp;document_id=...</code>).</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-konfigurácia-a-prostredia">4. Konfigurácia a prostredia<a href="#4-konfigurácia-a-prostredia" class="hash-link" aria-label="Direct link to 4. Konfigurácia a prostredia" title="Direct link to 4. Konfigurácia a prostredia" translate="no">​</a></h2>
+<p>Konfigurácia je rozdelená na:</p>
+<ol>
+<li class="">
+<p><strong>Environment variables</strong> (typicky nastavené v testoch / docker-compose):</p>
+<ul>
+<li class=""><code>USE_MILVUS_LITE</code> – prepínač embedded vs. server,</li>
+<li class=""><code>SEMANTIC_SEARCH_ENABLED</code> – zapínanie/vypínanie sémantického vyhľadávania,</li>
+<li class=""><code>EMBEDDING_DEVICE</code> – <code>cpu</code> / <code>cuda</code>,</li>
+<li class=""><code>EMBEDDING_BATCH_SIZE</code> – veľkosť batchu pri generovaní embeddingov,</li>
+<li class=""><code>CHUNK_LEVEL</code> – <code>paragraph</code> / <code>page</code>,</li>
+<li class=""><code>MILVUS_COLLECTION_NAME</code> – názov kolekcie,</li>
+<li class=""><code>MILVUS_LITE_DB</code> – cesta k embedded DB súboru.</li>
+</ul>
+</li>
+<li class="">
+<p><strong><code>SemanticConfig</code></strong>
+obsahuje default hodnoty:</p>
+<ul>
+<li class=""><code>MODEL_NAME</code>,</li>
+<li class=""><code>EMBEDDING_DIM</code>,</li>
+<li class=""><code>MAX_SEQUENCE_LENGTH</code>,</li>
+<li class=""><code>MIN_PARAGRAPH_LENGTH</code>,</li>
+<li class=""><code>MILVUS_HOST</code>, <code>MILVUS_PORT</code>,</li>
+<li class="">predvolený <code>CHUNK_LEVEL</code>, <code>BATCH_SIZE</code>, <code>DEVICE</code>.</li>
+</ul>
+</li>
+</ol>
+<p>Environment variables majú prednosť pred hodnotami v <code>SemanticConfig</code>, čo umožňuje meniť správanie bez zásahov do kódu.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-identifikované-a-vyriešené-kritické-problémy">5. Identifikované a vyriešené kritické problémy<a href="#5-identifikované-a-vyriešené-kritické-problémy" class="hash-link" aria-label="Direct link to 5. Identifikované a vyriešené kritické problémy" title="Direct link to 5. Identifikované a vyriešené kritické problémy" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>Nesprávne použitie OCR v digitálnych PDF súboroch</strong></li>
+</ol>
+<ul>
+<li class="">Pôvodne sa OCR používalo aj na digitálnych PDF → drastické spomalenie + straty v diakritike.</li>
+<li class="">Teraz <code>_is_digital()</code> rozlišuje typ dokumentu a <code>extract()</code> smeruje buď na <code>_extract_digital()</code> (PyMuPDF) alebo <code>_extract_ocr()</code>.</li>
+</ul>
+<ol start="2">
+<li class=""><strong>Nekonzistencie vo formáte dátového kanála</strong></li>
+</ol>
+<ul>
+<li class="">Pôvodný formát n-tíc bol nekompatibilný s novým <code>TextExtractor</code>om.</li>
+<li class="">Všetky následné komponenty (<code>TextProcessor</code>, <code>SemanticIndexer</code>) pracujú so slovníkmi (<code>{&#x27;page_num&#x27;, &#x27;text&#x27;, &#x27;paragraphs&#x27;,&#x27;sentences&#x27;}</code>), čo je kompatibilné s JSON a znižuje krehkosť prenosu.</li>
+</ul>
+<ol start="3">
+<li class=""><strong>Naivné spracovanie textu</strong></li>
+</ol>
+<ul>
+<li class="">Jednoduché heuristiky lámali vety pri skratkách („prof.“, „napr.“) a nevedeli správne zlepiť hyfenizované slová.</li>
+<li class="">Zavedená funkcia <code>_clean_whitespace</code> a použitie <code>nltk.sent_tokenize</code> s podporou slovenčiny (<code>punkt_tab</code>). Čistenie sa vykonáva v jednom</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-class-diagram">Architecture Class Diagram<a href="#architecture-class-diagram" class="hash-link" aria-label="Direct link to Architecture Class Diagram" title="Direct link to Architecture Class Diagram" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="EvilFlowers Text Service Architecture Class Diagram" src="/TP2025-T23/assets/images/text_service_architecture-23f42604ec0b8529b9130b8b026d44f0.png" width="1652" height="970" class="img_ev3q"></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/TP2025-T23/docs/data-science/diagrams"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Diagramy</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/TP2025-T23/docs/category/system-engineering"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">System Engineering</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-účel-systému" class="table-of-contents__link toc-highlight">1. Účel systému</a></li><li><a href="#2-high-level-architektúra" class="table-of-contents__link toc-highlight">2. High-level architektúra</a></li><li><a href="#3-komponenty" class="table-of-contents__link toc-highlight">3. Komponenty</a><ul><li><a href="#31-textextractor" class="table-of-contents__link toc-highlight">3.1 TextExtractor</a></li><li><a href="#32-texthandler--textservice" class="table-of-contents__link toc-highlight">3.2 TextHandler / TextService</a></li><li><a href="#33-semanticindexer" class="table-of-contents__link toc-highlight">3.3 SemanticIndexer</a></li><li><a href="#34-embeddinggenerator" class="table-of-contents__link toc-highlight">3.4 EmbeddingGenerator</a></li><li><a href="#35-milvusmanager" class="table-of-contents__link toc-highlight">3.5 MilvusManager</a></li><li><a href="#36-semanticsearch" class="table-of-contents__link toc-highlight">3.6 SemanticSearch</a></li></ul></li><li><a href="#4-konfigurácia-a-prostredia" class="table-of-contents__link toc-highlight">4. Konfigurácia a prostredia</a></li><li><a href="#5-identifikované-a-vyriešené-kritické-problémy" class="table-of-contents__link toc-highlight">5. Identifikované a vyriešené kritické problémy</a></li><li><a href="#architecture-class-diagram" class="table-of-contents__link toc-highlight">Architecture Class Diagram</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Team 23</div></div></div></footer></div>
+</body>
+</html>
