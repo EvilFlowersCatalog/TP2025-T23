@@ -52,3 +52,7 @@ code,
 [data-theme='dark'] .token.plain {
   color: #a4b2eb;
 }
+
+.markdown ol{
+  list-style-type: decimal !important;
+}
