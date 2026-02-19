@@ -4,10 +4,43 @@
         <title>Team 23 Blog</title>
         <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog</link>
         <description>Team 23 Blog</description>
-        <lastBuildDate>Wed, 03 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Zápisnica zo stretnutia č. 7]]></title>
+            <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog/seventh-record</link>
+            <guid>https://EvilFlowersCatalog.dev/TP2025-T23/blog/seventh-record</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meeting 7]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 7" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting7-35d07381413699fb5bfcf06fd21775db.JPG" width="832" height="448" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/seventh-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 18.02.2026<br>
+<strong>Čas:</strong> 12:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/seventh-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->❌ Juraj Budinský<br>
+<!-- -->✅ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský - online<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/seventh-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p>Na prvom stretnutí v letnom semestri sa prebrali novinky ohľadom akademickej knižnice na STU, najmä integrácia Elvíry s Dataverse, inštalácia Dataverse na server a manažment centrálneho katalógu kníh cez Dataverse. Následne každý tím opísal, na čom pracoval, v akom stave sú jednotlivé úlohy a čo sa plánuje ďalej.</p>
+<p><strong>Data Science tím</strong> integroval search service a text service do EvilFlowers katalógu. Momentálne sa pracuje na extrakcii tabuliek z dokumentov, rieši sa formát ich uloženia. Riešilo sa spojenie services s frontendom a use cases pre semantic search. Debatovalo sa o architektonických možnostiach integrácie jednotlivých služieb. Je potrebné vymyslieť komunikáciu služieb s frontendom, zadefinovať, ktoré údaje sa budú posielať a ako.</p>
+<p><strong>System Engineering tím</strong> pracoval na Dataverse a jeho integrácii s EvilFlowers. Opísal proces pridávania publikácií do Dataverse a proces spracovávania dát. Debatovalo sa o možnostiach eliminácie duplikátov v Dataverse pri viacerých kusov kníh v rôznych katalógoch STU. Ďalej sa bude inštalovať Dataverse na server STU a bude sa presúvať katalóg kníh z dev verzie Elvíry do Dataverse, nad ktorým sa bude riešiť duplicita kníh v katalógoch a iné edge-cases. Tiež sa riešilo možné nahrávanie datasetov do Dataverse a ich následná analýza na základe labels.</p>
+<p><strong>UX tím</strong> pracoval na návrhu inteligentných features, boli spravené user scenarios, user flows a low-fidelity prototyp, ktorý bol na stretnutí odprezentovaný. Je potrebné sa dohodnúť, ktoré features je možné realizovať, vytvoriť roadmapu a určiť priority.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/seventh-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
+<ol>
+<li class="">Namapovať navrhnuté features na technickú realizáciu, vytvoriť roadmapu.</li>
+</ol>]]></content:encoded>
+            <category>letný semester</category>
+        </item>
         <item>
             <title><![CDATA[Zápisnica zo stretnutia č. 6]]></title>
             <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog/sixth-record</link>
