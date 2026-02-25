@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunktp_2025_t_23=globalThis.webpackChunktp_2025_t_23||[]).push([[8241],{7722:e=>{e.exports=JSON.parse('{"tags":[{"label":"letn\xfd semester","permalink":"/TP2025-T23/blog/tags/letny-semester","count":1},{"label":"zimn\xfd semester","permalink":"/TP2025-T23/blog/tags/zimny-semester","count":6}]}')}}]);
