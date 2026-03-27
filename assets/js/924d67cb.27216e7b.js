@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktp_2025_t_23=globalThis.webpackChunktp_2025_t_23||[]).push([[5572],{7645:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/TP2025-T23/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/TP2025-T23/blog","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
