@@ -4,6 +4,12 @@
  * work well for content-centric websites.
  */
 
+@import "@fontsource/inter/300.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #21368B;
@@ -14,7 +20,7 @@
   --ifm-color-primary-lighter: #b2beee;
   --ifm-color-primary-lightest: #dfe4f8;
   --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'Trebuchet MS', sans-serif;
+  --ifm-font-family-base: Inter, system-ui, sans-serif;
   --docusaurus-highlighted-code-line-bg: rgba(0 0 0 / 0.3);
   --color-title: #1b244a;
   --color-description: #232f5e;

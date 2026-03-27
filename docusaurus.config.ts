@@ -92,7 +92,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © 2025 Team 23`,
+      copyright: `Copyright © 2025 Team 23<br>Built with coffee, spite & poor time management.`,
     },
     prism: {
       theme: prismThemes.github,

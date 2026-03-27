@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 
 function blogPost(post) {
-    const meetingNumber = post.title[post.title.length - 1];
+    const meetingNumber = post.title.match(/\d+$/)?.[0] || '1';
     const date = new Date(post.date);
     const formattedDate = date.toLocaleDateString('sk-SK', {
         year: 'numeric',
