@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog</id>
     <title>Team 23 Blog</title>
-    <updated>2026-03-25T00:00:00.000Z</updated>
+    <updated>2026-04-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://EvilFlowersCatalog.dev/TP2025-T23/blog"/>
     <subtitle>Team 23 Blog</subtitle>
     <icon>https://EvilFlowersCatalog.dev/TP2025-T23/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Zápisnica zo stretnutia č. 12]]></title>
+        <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/twelfth-record</id>
+        <link href="https://EvilFlowersCatalog.dev/TP2025-T23/blog/twelfth-record"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meeting 12]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 12" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting12-171e61e644ca97b415c78cb5aeac18d3.JPG" width="832" height="448" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/twelfth-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 01.04.2026<br>
+<strong>Čas:</strong> 12:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/twelfth-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->✅ Juraj Budinský<br>
+<!-- -->✅ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský - online<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/twelfth-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p><strong>System Engineering tím/Data Science tím</strong> navrhoval zoskupovanie entries v Dataverse pre jednotlivé fakulty, riešením bude vytvorenie viacerých inštancií Dataverse pre fakulty v rámci EvilFlowers katalógu. Tiež sa diskutovalo o mazaní kníh, resp. zrušení publikovania (unpublish) a synchronizácii katalógov. Pokračuje nasadzovanie a testovanie Dataverse.</p>
+<p><strong>Data Science tím</strong> preberal rôzne verzie dizajnu <strong>UX tímu</strong> pre sémantické vyhľadávanie, riešili sa technické možnosti, využitie lokálnych LLM a problém generovania textu v iných jazykoch.</p>
+<p><strong>UX tím</strong> spravil používateľské testovanie a rozhovory zamerané na PDF viewer a navrhnuté inteligentné funkcionality. Boli odprezentované high-fidelity prototypy PDF viewera a inteligentných features, feedback bude zapracovaný. V nasledujúcich týždňoch sa pripraví návrh používateľského testovania a upraví high-fidelity prototyp pre potreby testovania. Na záver sa diskutovalo o úprave funkcie výpožičiek.</p>]]></content>
+        <author>
+            <name>Adriana Pikartová</name>
+        </author>
+        <category label="letný semester" term="letný semester"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zápisnica zo stretnutia č. 11]]></title>
         <id>https://EvilFlowersCatalog.dev/TP2025-T23/blog/eleventh-record</id>
