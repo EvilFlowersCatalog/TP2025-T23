@@ -83,6 +83,12 @@ const config: Config = {
           label: 'Dokumentácia',
         },
         {to: '/methodology', label: 'Metodika', position: 'left'},
+        {to: '/prototype', label: 'Prototyp', position: 'left'},
+        {
+          href: 'https://elvira.fiit.stuba.sk/',
+          label: 'Elvira',
+          position: 'right',
+        },
         {
           href: 'https://github.com/EvilFlowersCatalog',
           label: 'GitHub',
