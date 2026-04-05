@@ -29,7 +29,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className={clsx('hero__subtitle', styles.description)}>
-          Elvíra <br />
+          Elvira <br />
           Digitálna knižnica
         </p>
         </div>

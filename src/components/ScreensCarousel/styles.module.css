@@ -1,0 +1,52 @@
+.carousel {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.text {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.button {
+  border: none;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-font-color-base-inverse);
+}
+
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.counter {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  width: 3rem;
+}

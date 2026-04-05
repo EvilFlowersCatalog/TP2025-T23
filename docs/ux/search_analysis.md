@@ -3,11 +3,11 @@ sidebar_position: 1
 ---
 
 # Analýza vyhľadávania
-V predchádzajúcej [evaluácii](https://elvira.digital/TP2024-T5/docs/documentation/ux/analysis/) Elvíry bolo vyhľadávanie označené ako katastrofa použiteľnosti, problém s najväčšou závažnosťou, ktorý je potrebné napraviť čo najskôr. Cieľom tejto analýzy bolo preto identifikovať problémy s použiteľnosťou a celkovým dizajnom vyhľadávania. Analyzovali sme predchádzajúce testovanie Elvíry, analytiku stránky, vykonali a vyhodnotili sme tiež vlastné testovanie. Poznatky z analýzy sme použili pri návrhu riešenia - redizajne vyhľadávania. 
+V predchádzajúcej [evaluácii](https://elvira.digital/TP2024-T5/docs/documentation/ux/analysis/) Elviry bolo vyhľadávanie označené ako katastrofa použiteľnosti, problém s najväčšou závažnosťou, ktorý je potrebné napraviť čo najskôr. Cieľom tejto analýzy bolo preto identifikovať problémy s použiteľnosťou a celkovým dizajnom vyhľadávania. Analyzovali sme predchádzajúce testovanie Elviry, analytiku stránky, vykonali a vyhodnotili sme tiež vlastné testovanie. Poznatky z analýzy sme použili pri návrhu riešenia - redizajne vyhľadávania. 
 
 
 ## Analýza predchádzajúceho UX testovania
-Na základe existujúcej [analýzy](https://elvira.digital/TP2024-T5/docs/documentation/ux/analysis/) a [testovania](https://elvira.digital/TP2024-T5/docs/documentation/ux/ux_test/) portálu Elvíra sme identifikovali a spísali problémy súvisiace s vyhľadávaním - jeho dizajnom, použiteľnosťou a funkcionalitou. Do zoznamu sme zahrnuli návrhy používateľov na vylepšenia a tiež vlastné postrehy k vyhľadávaniu.
+Na základe existujúcej [analýzy](https://elvira.digital/TP2024-T5/docs/documentation/ux/analysis/) a [testovania](https://elvira.digital/TP2024-T5/docs/documentation/ux/ux_test/) portálu Elvira sme identifikovali a spísali problémy súvisiace s vyhľadávaním - jeho dizajnom, použiteľnosťou a funkcionalitou. Do zoznamu sme zahrnuli návrhy používateľov na vylepšenia a tiež vlastné postrehy k vyhľadávaniu.
 
 **Pokročilé vyhľadávanie/Advanced search**
 - Málo viditeľné, skryté.
@@ -39,7 +39,7 @@ Na základe existujúcej [analýzy](https://elvira.digital/TP2024-T5/docs/docume
 
 
 ## Analytika
-Aby sme lepšie pochopili skutočné správanie používateľov pri používaní Elvíry, predovšetkým vyhľadávania, preštudovali sme údaje z analytiky portálu. Výsledkom sú nasledujúce zistenia:
+Aby sme lepšie pochopili skutočné správanie používateľov pri používaní Elviry, predovšetkým vyhľadávania, preštudovali sme údaje z analytiky portálu. Výsledkom sú nasledujúce zistenia:
 
 - **Pokročilé vyhľadávanie** sa takmer nevyužíva. 
     - Najpoužívanejším parametrom v pokročilom vyhľadávaní je **skupina/feed**.
@@ -54,7 +54,7 @@ Aby sme lepšie pochopili skutočné správanie používateľov pri používaní
 
 
 ## Komparatívne testovanie použiteľnosti
-Keďže predchádzajúce UX testovanie sa týkalo celého systému a vyhľadávaniu boli venované len 4 otázky, rozhodli sme sa vykonať vlastné testovanie, ktoré by doplnilo existujúci používateľský výskum. Komparatívne testovanie je metóda používateľského výskumu, kde sa porovnávajú dve alebo viac verzií produktu/dizajnu (rôzne varianty prototypov, komerčné riešenie). Cieľom je identifikovať silné a slabé stránky produktov a tiež pochopiť, ako používatelia interagujú s rôznymi dizajnmi a ako premýšľajú počas vyhľadávania. Porovnávali sme **Elvíru** a **Martinus**: účastníkom testovania boli zadané 3 úlohy, ktoré vykonali na oboch stránkach. Poradie stránok sa menilo pre každého účastníka, aby sme minimalizovali zaujatosť (bias). Zamerali sme sa predovšetkým na otvorené otázky a thinking aloud metódu, ale zaznamenávali sme aj metriky ako task completion rate a task completion time. 
+Keďže predchádzajúce UX testovanie sa týkalo celého systému a vyhľadávaniu boli venované len 4 otázky, rozhodli sme sa vykonať vlastné testovanie, ktoré by doplnilo existujúci používateľský výskum. Komparatívne testovanie je metóda používateľského výskumu, kde sa porovnávajú dve alebo viac verzií produktu/dizajnu (rôzne varianty prototypov, komerčné riešenie). Cieľom je identifikovať silné a slabé stránky produktov a tiež pochopiť, ako používatelia interagujú s rôznymi dizajnmi a ako premýšľajú počas vyhľadávania. Porovnávali sme **Elviru** a **Martinus**: účastníkom testovania boli zadané 3 úlohy, ktoré vykonali na oboch stránkach. Poradie stránok sa menilo pre každého účastníka, aby sme minimalizovali zaujatosť (bias). Zamerali sme sa predovšetkým na otvorené otázky a thinking aloud metódu, ale zaznamenávali sme aj metriky ako task completion rate a task completion time. 
 
 **[Nevyplnený protokol](../../static/pdf/protocol_01.pdf)**.
 
@@ -65,14 +65,14 @@ Na základe odpovedí účastníkov a ich interakcie s oboma systémami sme spí
 
 **Slabé stránky:**
 - **Filtre** (Martinus) - P3 si nebol istý, či mu aplikovalo filtre, ktoré zvolil, keďže sa zobrazovali rovnaké výsledky. 
-- **Umiestnenie filtrov** (Elvíra) - používateľom prekážalo umiestenie filtrov na pravej strane, bolo to pre nich neintuitívne.
-- **Vyhľadávanie podľa autora** (Elvíra) - nefunguje priamo, len cez advanced search.
-- **Vyhľadávanie podľa kľúčového slova** (Elvíra) - nedostatočné, používatelia nechápali, na základe čoho im vyhľadalo konkrétne knihy. Pri zadaní anglického výrazu sa nenašli relevantné knihy v slovenčine a naopak.
+- **Umiestnenie filtrov** (Elvira) - používateľom prekážalo umiestenie filtrov na pravej strane, bolo to pre nich neintuitívne.
+- **Vyhľadávanie podľa autora** (Elvira) - nefunguje priamo, len cez advanced search.
+- **Vyhľadávanie podľa kľúčového slova** (Elvira) - nedostatočné, používatelia nechápali, na základe čoho im vyhľadalo konkrétne knihy. Pri zadaní anglického výrazu sa nenašli relevantné knihy v slovenčine a naopak.
 
 **Silné stránky:**
 - **Auto-suggestions** (Martinus) - dvaja z troch účastníkov túto funkciu aktívne využívali a niektoré úlohy dokončili len s využitím priebežných výsledkov počas vyhľadávania.
 - **Kategórie a počet kníh** (Martinus) - používatelia sa rozhodovali o svojom ďalšom postupe aj podľa zobrazených kategórií/tém a počtu kníh.
-- **Feeds/skupiny** (Elvíra) - používatelia ocenili možnosť vyhľadávania cez skupiny - predmety.
+- **Feeds/skupiny** (Elvira) - používatelia ocenili možnosť vyhľadávania cez skupiny - predmety.
 
 Testovanie pomohlo lepšie pochopiť, ako používatelia rozmýšľajú nad tým, čo a ako vyhľadávajú, na základe čoho sa rozhodujú pre danú knihu a ako reagujú na irelevantné, prípadne žiadne výsledky. 
 
@@ -108,4 +108,4 @@ Na základe analýzy navrhujeme nasledovné zmeny a vylepšenia:
 <br></br>
 <br></br>
 
-*Testovanie a analytika sú ovplyvnené počtom dostupných kníh v Elvíre (48 pre FIIT). Pri tomto počte používatelia dokážu nájsť konkrétnu knihu scrollovaním alebo cez skupiny - vyhľadávanie sa preto využíva minimálne. V analytike je tiež jasne vidieť, ktoré slová boli hľadané pri UX testovaniach. Celková analýza a používateľský výskum preto môžu byť mierne skreslené.
+*Testovanie a analytika sú ovplyvnené počtom dostupných kníh v Elvire (48 pre FIIT). Pri tomto počte používatelia dokážu nájsť konkrétnu knihu scrollovaním alebo cez skupiny - vyhľadávanie sa preto využíva minimálne. V analytike je tiež jasne vidieť, ktoré slová boli hľadané pri UX testovaniach. Celková analýza a používateľský výskum preto môžu byť mierne skreslené.
