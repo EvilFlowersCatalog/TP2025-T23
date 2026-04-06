@@ -9,32 +9,32 @@ Inteligentné funkcie predstavujú súbor funkcionalít, ktoré rozširujú Elvi
 
 Niektoré funkcionality boli navrhnuté a prototypované úplne, iné boli upravené, odložené alebo vyradené na základe časových a technických obmedzení tímového projektu. Celkovo bolo navrhnutých 15 funkcií, vrátane rôznych možností dizajnu a mierne odlišnej funkcionality.
 
-| Číslo | Názov          | Miesto       | Stav   |
-|-------|----------------| ------------ | ------ |
-| 1     | Recommended books | Homepage  | ✅ Backend |
-| 2     | Related books   | Book detail | ✅ Backend |
-| 3     | Themed collections  | Homepage | ✅ Backend |
-| 4     | Study plan | Homepage | ❌ scrapped  |
-| 5     | Better keyword search/multilingual search | Search | ✅ Backend |
-| 6     | No results - related terms | Search | ✅ Backend |
-| 7     | Semantic/natural language search | Search | ✅ Backend |
-| 8.1   | Intelligent search results - paragraphs | Search | 🔄 refined |
-| 8.2   | Intelligent search results - definition | Search | 🔄 refined |
-| 8.3   | Intelligent search results - definition + image | Search | ⏳ postponed |
-| 8.4   | Intelligent search results - study plan | Search | ❌ scrapped |
-| 9.1   | Recommendations | Viewer | ✅ Backend |
-| 9.2   | Recommendations - end of the book | Viewer | ❌ scrapped |
-| 10.1  | Semantic search in book - raw chunk | Viewer | ✅ Backend |
-| 10.2  | Semantic search in book - intelligent label | Viewer | ✅ Backend |
-| 11.1  | Selected text - similar books | Viewer | ✅ Backend |
-| 11.2  | Selected text - LLM generated explanation | Viewer | ✅ Backend |
-| 11.3  | Selected text - different books explanation | Viewer | ⏳ postponed |
-| 12.1   | Normal bookmark | Viewer | ✅ Frontend |
-| 12.2   | Sticky notes | Viewer + Saved | ✅ Frontend |
-| 13     | Chat with the book | Viewer | ⏳ postponed |
-| 14    | Alternative sources | Search | ✅ Frontend |
-| 15.1  | Exam mode - questions & answers | Viewer | ⏳ postponed |
-| 15.2  | Exam mode - submittable test | Viewer | ⏳ postponed |
+| **Číslo** |                    **Názov**                    |   **Miesto**   |   **Stav**  |
+|:---------:|:----------------------------------------------- |:--------------:|:-----------:|
+| **1**     | Recommended books                               | Homepage       |  ✅ Backend  |
+| **2**     | Related books                                   | Book detail    |  ✅ Backend  |
+| **3**     | Themed collections                              | Homepage       |  ✅ Backend  |
+| **4**     | Study plan                                      | Homepage       |  ❌ scrapped |
+| **5**     | Better keyword search/multilingual search       | Search         |  ✅ Backend  |
+| **6**     | No results - related terms                      | Search         |  ✅ Backend  |
+| **7**     | Semantic/natural language search                | Search         |  ✅ Backend  |
+| **8.1**   | Intelligent search results - paragraphs         | Search         |  🔄 refined  |
+| **8.2**   | Intelligent search results - definition         | Search         |  🔄 refined  |
+| **8.3**   | Intelligent search results - definition + image | Search         | ⏳ postponed |
+| **8.4**   | Intelligent search results - study plan         | Search         |  ❌ scrapped |
+| **9.1**   | Recommendations                                 | Viewer         |  ✅ Backend  |
+| **9.2**   | Recommendations - end of the book               | Viewer         |  ❌ scrapped |
+| **10.1**  | Semantic search in book - raw chunk             | Viewer         |  ✅ Backend  |
+| **10.2**  | Semantic search in book - intelligent label     | Viewer         |  ✅ Backend  |
+| **11.1**  | Selected text - similar books                   | Viewer         |  ✅ Backend  |
+| **11.2**  | Selected text - LLM generated explanation       | Viewer         |  ✅ Backend  |
+| **11.3**  | Selected text - different books explanation     | Viewer         | ⏳ postponed |
+| **12.1**  | Normal bookmark                                 | Viewer         |  ✅ Frontend |
+| **12.2**  | Sticky notes                                    | Viewer + Saved |  ✅ Frontend |
+| **13**    | Chat with the book                              | Viewer         | ⏳ postponed |
+| **14**    | Alternative sources                             | Search         |  ✅ Frontend |
+| **15.1**  | Exam mode - questions & answers                 | Viewer         | ⏳ postponed |
+| **15.2**  | Exam mode - submittable test                    | Viewer         | ⏳ postponed |
 
 ## User scenarios a user flows
 Vytvorili sme user scenarios a user flows pre vybrané inteligentné funkcionality. Časť funkcií, ktorá nie je navrhnutá týmto spôsobom, je špecifikovaná ako low-fidelity prototyp. Jedná sa najmä o riešenia, ktoré sú už čiastočne implementované alebo o čisto technické záležitosti.
@@ -87,7 +87,9 @@ export const research_slides = [
 <ScreensCarousel slides={research_slides} />
 
 ## Low-fidelity prototyp
-Následne sme vytvorili low-fidelity prototyp, celkovo 34 obrazoviek, pričom pri viacerých funkciách sme navrhli niekoľko verzií rozloženia elementov a dizajnu. Prototypy boli odprezentované na stretnutí tímu, kde boli upravené. Následne boli upravené aj po používateľských rozhovoroch, kde sme tiež niektoré funkcie zamietli. Vybrané low-fidelity návrhy:
+Následne sme vytvorili low-fidelity prototyp, celkovo 34 obrazoviek, pričom pri viacerých funkciách sme navrhli niekoľko verzií rozloženia elementov a dizajnu. Prototypy boli odprezentované na stretnutí tímu, kde boli upravené. Následne boli upravené aj po používateľských rozhovoroch, kde sme tiež niektoré funkcie zamietli.
+
+Vybrané low-fidelity návrhy:
 
 export const lowfi_path = "/TP2025-T23/ux/intelligent/lowfi/"
 
@@ -176,25 +178,67 @@ export const lowfi_slides = [
 
 <ScreensCarousel slides={lowfi_slides} />
 
-## User interviews
-Hoci návrh inteligentných funkcií vychádzal z existujúceho používateľského výskumu, rozhodli sme sa dizajn proces podporiť ďalšou metódou. Realizovali sme používateľské rozhovory s cieľom zistiť ako ľudia pristupujú k organizácii kníh a učebných materiálov, digitálnym knižniciam a čítačkám kníh. Chceli sme identifikovať ich potreby, frustrácie a tiež zistiť ich názor na nami navrhované funkcie. Rozhovory prebehli s 3 účastníkmi a boli spojené s testovaním PDF čítačky (viewer).
+## User interviews a Concept testing
+Hoci návrh inteligentných funkcií vychádzal z existujúceho používateľského výskumu, rozhodli sme sa dizajn proces podporiť ďalšou metódou. Realizovali sme používateľské rozhovory s cieľom zistiť ako ľudia pristupujú k organizácii kníh a učebných materiálov, digitálnym knižniciam a čítačkám kníh. Chceli sme identifikovať ich potreby a frustrácie. Pomocou concept testingu sme zisťovali ich názor na nami navrhované funkcie. Concept testing je metóda používateľského výskumu, ktorá sa zameriava na testovanie a získavanie spätnej väzby ku konceptom produktu v počiatočných fázach návrhu a prototypovania.
+
+Rozhovory prebehli s 3 účastníkmi a boli spojené s testovaním PDF čítačky. Rozhovor bol semi-štruktúrovaný. 
 
 **[Nevyplnený protokol](../../static/pdf/protocol_if_01.pdf)**.
 
+### Výsledky
+
+|    **Číslo**    |                 **Funkcia**                 | **P1** | **P2** | **P3** |
+|:--------------- | ------------------------------------------- |:------:|:------:|:------:|
+| **1**           | Recommended books                           | 🟠      | 🟠      | 🟢      |
+| **2**           | Related books                               | 🟠      | 🟢      | 🟢      |
+| **3**           | Themed collections                          | 🟢      | 🟢      | 🟢      |
+| **4**           | Study plan                                  | 🟢      | 🔴      | 🟠      |
+| **5**           | Better keyword search/multilingual search   | 🟢      | 🟢      | 🟢      |
+| **6**           | No results - related terms                  | 🟠      | 🟢      | 🟠      |
+| **7**           | Semantic/natural language search            | 🟢      | 🟢      | 🟢      |
+| **8.1 a 8.2**   | Intelligent search results                  | 🟠      | 🟢      | 🟢      |
+| **8.4**         | Intelligent search results - study plan     | 🟢      | 🔴      | 🟠      | 
+| **9.1**         | Recommendations - viewer                    | 🔴      | 🟠      | 🔴      |
+| **9.2**         | Recommendations - end of the book           | 🔴      | 🔴      | 🟠      |
+| **10.1 a 10.2** | Semantic search in book                     | 🟢      | 🟢      | 🟢      |
+| **11.1**        | Selected text - similar books               | 🔴      | 🟠      | 🔴      |
+| **11.2**        | Selected text - LLM generated explanation   | 🟢      | 🟢      | 🟢      |
+| **11.3**        | Selected text - different books explanation | 🔴      | 🟢      | 🟠      |
+| **12.1**        | Normal bookmark                             | 🟢      | 🟢      | 🟢      |
+| **12.2**        | Sticky notes                                | 🟢      | 🟢      | 🟢      |
+| **13**          | Chat with the book                          | 🔴      | 🟢      | 🟠      |
+| **14**          | Alternative sources                         | 🟠      | 🟢      | 🟠      |
+| **15.1 a 15.2** | Exam mode                                   | 🟢      | 🟢      | 🟢      |
+
+
+🟢 Funkcia je pre mňa užitočná/dôležitá
+🟠 Možno by som použil/a
+🔴 Nepoužíval/a by som
+
+
+<br></br>
+***Ktorá funkcia je pre teba najlepšia a prečo?***
+- **P1:** Vyhľadávanie v knihe (10), lebo to by mi ušetrilo dosť čas. A vysvetlenie textu (11.2), lebo proste niekedy potrebujem veci jednoduchšie vysvetliť. Aj tie záložky (12.2) sú nice, ja si zvýrazňujem poznámky aj normálne, to by mi pomohlo.
+- **P2:** Semantic search (7) aj v knihe (10), tie časti kníh vo vyhľadávaní (8.2), to by mi veľmi pomohlo teraz pri diplomovke, keď si googlim vety a hľadám štúdie, ktoré by som odcitoval. Aj tie otázky, ten test (15) sú mega dobré. Najlepšie sú pre mnňa tie lepítka ale, to by bolo fantastické, keby si čítam štúdiu a môžem si zvýrazniť text, ktorý si chcem pridať do práce ale nemám na to čas práve. A dať si k tomu nejakú poznámku.
+- **P3:** Semantic search (7) a sticky notes (12.2). Kebyže sme teda v nejakej veľkej knižnici, s kopou článkov, tak by som určite chcela vyhľadávať sémanticky. To mi chýba dosť, aj teraz keď píšem diplomovku, pýtam sa Clauda hlavne. A teda mám toho veľa, veľa zdrojov, poznámok, všetko mám vo Worde a Notione, ale je to neprehľadné a neviem, kde čo mám, na to tie sticky notes.
 
 **[Vyplnený protokol](../../static/pdf/protocol_if_02.pdf)**.
+<br></br>
 
+Na základe spätnej väzby participantov sme upravili návrhy, z hľadiska funkcionality i dizajnu. Časť návrhov sme zavrhli aleno odložili, buď z dôvodu výhrad používateľov alebo technickej náročnosti. Väčšina pozitívne vnímaných funkcií bola ďalej prototypovaná. Odporúčania v knihe (9.1 a 11.1), ktoré neboli hodnotené úplne pozitívne, si používatelia vedeli predstaviť najmä v inom kontexte, mimo akademickej knižnice, preto sme sa ich rozhodli taktiež realizovať.
 
-Na základe spätnej väzby participantov sme upravili návrhy, z hľadiska funkcionality i dizajnu. Najvýznamnejšie zmeny prebehli v inteligetných výsledkoch vyhľadávania - funkcie 8.1 a 8.2:
+Najvýznamnejšie zmeny v návrhu prebehli v inteligentných výsledkoch vyhľadávania - funkcie 8.1 a 8.2:
 
 export const lowfi2_slides = [
   {
     title: "8.1.1 Intelligent search results - paragraphs carousel",
     image: lowfi_path + "8.1.1.png",
+    text: "Odseky z kníh relevantné k hľadanému výrazu, zobrazené ako carousel."
   },
   {
     title: "8.2.1 Intelligent search results - AI overview",
     image: lowfi_path + "8.2.1.png",
+    text: "Zhrunutie výsledkov pomocou LLM, vrátane zdrojov/kníh, z ktorých sa čerpalo."
   },
 ]
 
