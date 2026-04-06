@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Analýza vyhľadávania
+# 🔍 Analýza vyhľadávania
 V predchádzajúcej [evaluácii](https://elvira.digital/TP2024-T5/docs/documentation/ux/analysis/) Elviry bolo vyhľadávanie označené ako katastrofa použiteľnosti, problém s najväčšou závažnosťou, ktorý je potrebné napraviť čo najskôr. Cieľom tejto analýzy bolo preto identifikovať problémy s použiteľnosťou a celkovým dizajnom vyhľadávania. Analyzovali sme predchádzajúce testovanie Elviry, analytiku stránky, vykonali a vyhodnotili sme tiež vlastné testovanie. Poznatky z analýzy sme použili pri návrhu riešenia - redizajne vyhľadávania. 
 
 
