@@ -5,7 +5,7 @@ sidebar_position: 3
 import ScreensCarousel from '@site/src/components/ScreensCarousel';
 
 # ✨ Inteligentné funkcie
-Inteligentné funkcie predstavujú súbor funkcionalít, ktoré rozširujú Elviru nad rámec tradičného vyhľadávania a čítania kníh. Návrh vychádzal z predchádzajúceho používateľského testovania Elviry, testovania vyhľadávania a následne aj používateľských rozhovorov. Návrh bol tiež ovplyvnený technickým smerovaním tímového projektu, najmä integráciou semantického vyhľadávania. Úlohou dizajnu bolo vyvíjané technické riešenie zmysluplne pretaviť do používateľského rozhrania. Časť navrhnutých riešení predstavuje frontendové vylepšenia. Celkovo by tieto funckionality mali podporiť používateľov pri vyhľadávaní relevantnej literatúry, pochopení komplexných textov a orientácii vo veľkom množstve informácií.
+Inteligentné funkcie predstavujú súbor funkcionalít, ktoré rozširujú Elviru nad rámec tradičného vyhľadávania a čítania kníh. Návrh vychádzal z predchádzajúceho používateľského testovania Elviry, testovania vyhľadávania a následne aj používateľských rozhovorov. Návrh bol tiež ovplyvnený technickým smerovaním tímového projektu, najmä integráciou sémantického vyhľadávania. Úlohou dizajnu bolo vyvíjané technické riešenie zmysluplne pretaviť do používateľského rozhrania. Časť navrhnutých riešení predstavuje frontendové vylepšenia. Celkovo by tieto funkcionality mali podporiť používateľov pri vyhľadávaní relevantnej literatúry, pochopení komplexných textov a orientácii vo veľkom množstve informácií.
 
 Niektoré funkcionality boli navrhnuté a prototypované úplne, iné boli upravené, odložené alebo vyradené na základe časových a technických obmedzení tímového projektu. Celkovo bolo navrhnutých 15 funkcií, vrátane rôznych možností dizajnu a mierne odlišnej funkcionality.
 
@@ -219,13 +219,13 @@ Rozhovory prebehli s 3 účastníkmi a boli spojené s [testovaním PDF čítač
 <br></br>
 ***Ktorá funkcia je pre teba najlepšia a prečo?***
 - **P1:** Vyhľadávanie v knihe (10), lebo to by mi ušetrilo dosť čas. A vysvetlenie textu (11.2), lebo proste niekedy potrebujem veci jednoduchšie vysvetliť. Aj tie záložky (12.2) sú nice, ja si zvýrazňujem poznámky aj normálne, to by mi pomohlo.
-- **P2:** Semantic search (7) aj v knihe (10), tie časti kníh vo vyhľadávaní (8.2), to by mi veľmi pomohlo teraz pri diplomovke, keď si googlim vety a hľadám štúdie, ktoré by som odcitoval. Aj tie otázky, ten test (15) sú mega dobré. Najlepšie sú pre mnňa tie lepítka ale, to by bolo fantastické, keby si čítam štúdiu a môžem si zvýrazniť text, ktorý si chcem pridať do práce ale nemám na to čas práve. A dať si k tomu nejakú poznámku.
-- **P3:** Semantic search (7) a sticky notes (12.2). Kebyže sme teda v nejakej veľkej knižnici, s kopou článkov, tak by som určite chcela vyhľadávať sémanticky. To mi chýba dosť, aj teraz keď píšem diplomovku, pýtam sa Clauda hlavne. A teda mám toho veľa, veľa zdrojov, poznámok, všetko mám vo Worde a Notione, ale je to neprehľadné a neviem, kde čo mám, na to tie sticky notes.
+- **P2:** Semantic search (7) aj v knihe (10), tie časti kníh vo vyhľadávaní (8.2), to by mi veľmi pomohlo teraz pri diplomovke, keď si googlim vety a hľadám štúdie, ktoré by som odcitoval. Aj tie otázky, ten test (15) sú mega dobré. Najlepšie sú pre mňa tie lepítka ale, to by bolo fantastické, keby si čítam štúdiu a môžem si zvýrazniť text, ktorý si chcem pridať do práce ale nemám na to čas práve. A dať si k tomu nejakú poznámku.
+- **P3:** Semantic search (7) a sticky notes (12.2). Kebyže sme teda v nejakej veľkej knižnici, s kopou článkov, tak by som určite chcela vyhľadávať sémanticky. To mi chýba dosť, aj teraz keď píšem diplomovku, pýtam sa Clauda hlavne. A teda mám toho veľa, veľa zdrojov, poznámok, všetko mám vo Worde a Notion, ale je to neprehľadné a neviem, kde čo mám, na to tie sticky notes.
 
 **[Vyplnený protokol](../../static/pdf/protocol_if_02.pdf)**.
 <br></br>
 
-Na základe spätnej väzby participantov sme upravili návrhy, z hľadiska funkcionality i dizajnu. Časť návrhov sme zavrhli aleno odložili, buď z dôvodu výhrad používateľov alebo technickej náročnosti. Väčšina pozitívne vnímaných funkcií bola ďalej prototypovaná. Odporúčania v knihe (9.1 a 11.1), ktoré neboli hodnotené úplne pozitívne, si používatelia vedeli predstaviť najmä v inom kontexte, mimo akademickej knižnice, preto sme sa ich rozhodli taktiež realizovať.
+Na základe spätnej väzby participantov sme upravili návrhy, z hľadiska funkcionality i dizajnu. Časť návrhov sme zavrhli alebo odložili, buď z dôvodu výhrad používateľov alebo technickej náročnosti. Väčšina pozitívne vnímaných funkcií bola ďalej prototypovaná. Odporúčania v knihe (9.1 a 11.1), ktoré neboli hodnotené úplne pozitívne, si používatelia vedeli predstaviť najmä v inom kontexte, mimo akademickej knižnice, preto sme sa ich rozhodli taktiež realizovať.
 
 Najvýznamnejšie zmeny v návrhu prebehli v inteligentných výsledkoch vyhľadávania - funkcie 8.1 a 8.2:
 
@@ -238,7 +238,7 @@ export const lowfi2_slides = [
   {
     title: "8.2.1 Intelligent search results - AI overview",
     image: lowfi_path + "8.2.1.png",
-    text: "Zhrunutie výsledkov pomocou LLM, vrátane zdrojov/kníh, z ktorých sa čerpalo."
+    text: "Zhrnutie výsledkov pomocou LLM, vrátane zdrojov/kníh, z ktorých sa čerpalo."
   },
 ]
 

@@ -134,7 +134,7 @@ export const highfi_slides = [
   {
     title: "Výsledky vyhľadávania - author/feed/category",
     image: highfi_path + "04_search_authors_feeds_categories.png",
-    text: "Autori, skupiny (feeds) a kategórie ako výsledky vyhľadávania. Tento typ výsledkov by mal obsahovať len relevatné údaje v minimálnom počte a uľahčovať tak používateľom vyhľadávanie konkrétneho autora alebo témy. Väčšie množstvo výsledkov sa v prípade potreby dá rozbaliť."
+    text: "Autori, skupiny (feeds) a kategórie ako výsledky vyhľadávania. Tento typ výsledkov by mal obsahovať len relevantné údaje v minimálnom počte a uľahčovať tak používateľom vyhľadávanie konkrétneho autora alebo témy. Väčšie množstvo výsledkov sa v prípade potreby dá rozbaliť."
   },
   {
     title: "Author/feed/category page",

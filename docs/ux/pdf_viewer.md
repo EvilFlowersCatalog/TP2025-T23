@@ -12,7 +12,7 @@ Testovanie použiteľnosti PDF čítačky prebiehalo spolu s [user interview a c
 
 **[Protokol](../../static/pdf/protocol_pdf_01.pdf)**.
 
-PDF viewer bol tiež súčasťou predchádzajúceho [testovania](https://elvira.digital/TP2024-T5/docs/documentation/ux/ux_test/). Výsledky oboch testovaní sme analyzovali a spísali hlavné problémy, ktoré sme následne ohodnotili podľa [Severity Ratings for Usability Problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/). Okrem usability problémov sme identifikovali aj technické nedostatky a nefunkčné časti, ktoré tiež negatívne ovplyvňujú používateľský zážitok. V tabuľke preto rozlišujeme medzi UX a technickými problémami, pričom sme ohodnotili obe kategórie, keďže technické problémy väčšinou znemožnujú dokončenie úloh.
+PDF viewer bol tiež súčasťou predchádzajúceho [testovania](https://elvira.digital/TP2024-T5/docs/documentation/ux/ux_test/). Výsledky oboch testovaní sme analyzovali a spísali hlavné problémy, ktoré sme následne ohodnotili podľa [Severity Ratings for Usability Problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/). Okrem usability problémov sme identifikovali aj technické nedostatky a nefunkčné časti, ktoré tiež negatívne ovplyvňujú používateľský zážitok. V tabuľke preto rozlišujeme medzi UX a technickými problémami, pričom sme ohodnotili obe kategórie, keďže technické problémy väčšinou znemožňujú dokončenie úloh.
 
 | **Rating** | **Description**                                                                    |
 |------------|------------------------------------------------------------------------------------|
