@@ -63,7 +63,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/eleventh-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
 <p><strong>System Engineering tím</strong> riešil problém s nasadením Dataverse a migráciou dát. Tiež pracoval na skripte na predávanie kníh pre text service, diskutovalo sa o pridaní rate limitingu. Prebral sa plán ďalšej integrácie, nasadzovania Dataverse a mergovanie do development branch.</p>
 <p><strong>Data Science tím 1</strong> dorobil prepínač na ukladanie kníh do EvilFlowers vo forme notes, a tiež namapoval fields v Dataverse entry na existujúce EvilFlowers údaje. Ďalší týždeň by sa mali vyriešiť vytváranie používateľov v Dataverse na administráciu.</p>
-<p><strong>Data Science tím 2</strong> preberal migráciu katalógu a plánované testovanie na dev serveri. Ďalej pracoval na implementácii text service, riešili sa technické detaily semantic vyhľadávania a jeho umiestenie v Elvíre. Ďalší týždeň sa bude pracovať na probléme kníh, ktoré nie sú vo forme digitálneho pdf. Ku koncu semestra sa plánuje code review a príprava dokumentácie.</p>]]></content>
+<p><strong>Data Science tím 2</strong> preberal migráciu katalógu a plánované testovanie na dev serveri. Ďalej pracoval na implementácii text service, riešili sa technické detaily semantic vyhľadávania a jeho umiestenie v Elvire. Ďalší týždeň sa bude pracovať na probléme kníh, ktoré nie sú vo forme digitálneho pdf. Ku koncu semestra sa plánuje code review a príprava dokumentácie.</p>]]></content>
         <author>
             <name>Adriana Pikartová</name>
         </author>
@@ -156,7 +156,7 @@
 <!-- -->✅ Adriana Pikartová</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/eighth-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
 <p>Na ôsmom stretnutí sa konzultovali inteligentné features, riešila sa ich náročnosť na implementáciu, prínos pre používateľov a technické detaily. Predbežne sa dohodlo na funkciách, ktoré sa budú implementovať tento semester.</p>
-<p><strong>Data Science tím</strong> a <strong>System Engineering tím</strong> riešil organizáciu katalógov v Dataverse, user permissions a správu duplikátov. Debatovalo sa o prepojení EvilFlowers s Dataverse, validácii údajov pri pridávaní knihy do Dataverse a možnosti zobrazovania chybových hlásení v administrácii Elvíry.</p>
+<p><strong>Data Science tím</strong> a <strong>System Engineering tím</strong> riešil organizáciu katalógov v Dataverse, user permissions a správu duplikátov. Debatovalo sa o prepojení EvilFlowers s Dataverse, validácii údajov pri pridávaní knihy do Dataverse a možnosti zobrazovania chybových hlásení v administrácii Elviry.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/eighth-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
 <ol>
 <li class="">Dokončiť roadmapu features, pripraviť plán technickej realizácie, akceptačné testy.</li>
@@ -190,9 +190,9 @@
 <!-- -->✅ Tomáš Horička<br>
 <!-- -->✅ Adriana Pikartová</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/seventh-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
-<p>Na prvom stretnutí v letnom semestri sa prebrali novinky ohľadom akademickej knižnice na STU, najmä integrácia Elvíry s Dataverse, inštalácia Dataverse na server a manažment centrálneho katalógu kníh cez Dataverse. Následne každý tím opísal, na čom pracoval, v akom stave sú jednotlivé úlohy a čo sa plánuje ďalej.</p>
+<p>Na prvom stretnutí v letnom semestri sa prebrali novinky ohľadom akademickej knižnice na STU, najmä integrácia Elviry s Dataverse, inštalácia Dataverse na server a manažment centrálneho katalógu kníh cez Dataverse. Následne každý tím opísal, na čom pracoval, v akom stave sú jednotlivé úlohy a čo sa plánuje ďalej.</p>
 <p><strong>Data Science tím</strong> integroval search service a text service do EvilFlowers katalógu. Momentálne sa pracuje na extrakcii tabuliek z dokumentov, rieši sa formát ich uloženia. Riešilo sa spojenie services s frontendom a use cases pre semantic search. Debatovalo sa o architektonických možnostiach integrácie jednotlivých služieb. Je potrebné vymyslieť komunikáciu služieb s frontendom, zadefinovať, ktoré údaje sa budú posielať a ako.</p>
-<p><strong>System Engineering tím</strong> pracoval na Dataverse a jeho integrácii s EvilFlowers. Opísal proces pridávania publikácií do Dataverse a proces spracovávania dát. Debatovalo sa o možnostiach eliminácie duplikátov v Dataverse pri viacerých kusov kníh v rôznych katalógoch STU. Ďalej sa bude inštalovať Dataverse na server STU a bude sa presúvať katalóg kníh z dev verzie Elvíry do Dataverse, nad ktorým sa bude riešiť duplicita kníh v katalógoch a iné edge-cases. Tiež sa riešilo možné nahrávanie datasetov do Dataverse a ich následná analýza na základe labels.</p>
+<p><strong>System Engineering tím</strong> pracoval na Dataverse a jeho integrácii s EvilFlowers. Opísal proces pridávania publikácií do Dataverse a proces spracovávania dát. Debatovalo sa o možnostiach eliminácie duplikátov v Dataverse pri viacerých kusov kníh v rôznych katalógoch STU. Ďalej sa bude inštalovať Dataverse na server STU a bude sa presúvať katalóg kníh z dev verzie Elviry do Dataverse, nad ktorým sa bude riešiť duplicita kníh v katalógoch a iné edge-cases. Tiež sa riešilo možné nahrávanie datasetov do Dataverse a ich následná analýza na základe labels.</p>
 <p><strong>UX tím</strong> pracoval na návrhu inteligentných features, boli spravené user scenarios, user flows a low-fidelity prototyp, ktorý bol na stretnutí odprezentovaný. Je potrebné sa dohodnúť, ktoré features je možné realizovať, vytvoriť roadmapu a určiť priority.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/seventh-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
 <ol>
@@ -267,7 +267,7 @@
 <p><strong>Data Science tím 1</strong> začal pracovať na text procesore a semantic service. Preberali sa vhodné modely na embeddingy, vzhľadom na rôzne jazyky kníh v datasete sa použije multilingual model. Tím vylepšil text procesor, aktuálne rozlišuje medzi OCR súborom a konvenčným PDF súborom. Ďalej sa riešila architektúra projektu, štruktúra text procesora.</p>
 <p><strong>Data Science tím 2</strong> lokálne rozbehal Dataverse a spravil script na synchronizáciu pridávania kníh s EvilFlowers serverom. Tiež sa preberala existujúca microservice architektúra a protokoly. Debatovalo sa o možnostiach sťahovania a ukladania kníh z Dataverse.</p>
 <p><strong>System Engineering tím</strong> spravil sekvenčné diagramy k microservice architektúre. Riešila sa aktuálna integrácia, výhody a nevýhody Kafky a využitie Celery. Tiež sa preberala dokumentácia z predchádzajúceho tímového projektu k Dataverse.</p>
-<p><strong>UX tím</strong> zrealizoval a vyhodnotil testovanie a spísal analýzu vyhľadávania v Elvíre. Na základe analýzy bol vytvorený low-fidelity prototyp, ktorý bol na stretnutí prediskutovaný. Taktiež sa diskutovalo o inteligentných funkcionalitách, ktoré sa v nasledujúcich týždňoch budú navrhovať.</p>
+<p><strong>UX tím</strong> zrealizoval a vyhodnotil testovanie a spísal analýzu vyhľadávania v Elvire. Na základe analýzy bol vytvorený low-fidelity prototyp, ktorý bol na stretnutí prediskutovaný. Taktiež sa diskutovalo o inteligentných funkcionalitách, ktoré sa v nasledujúcich týždňoch budú navrhovať.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fifth-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
 <ol>
 <li class=""><strong>Data Science tím 1</strong> - pokračovať v implementácii text procesora a vektorovej databázy.</li>
@@ -306,7 +306,7 @@
 <p>Na štvrtom stretnutí sa preberala nasledovná agenda:</p>
 <ul>
 <li class="">Preberali sa vytvorené roadmapy a sekvenčné diagramy, <strong>Data Science tím</strong> riešil databázovú schému a špecifikáciu API vrstvy.</li>
-<li class="">Diskutovalo sa o analytike vyhľadávania, atribútoch kníh a rozdieloch medzi kategóriami (categories) a skupinami (feeds) v súvislosti s UX analýzou Elvíry.</li>
+<li class="">Diskutovalo sa o analytike vyhľadávania, atribútoch kníh a rozdieloch medzi kategóriami (categories) a skupinami (feeds) v súvislosti s UX analýzou Elviry.</li>
 <li class=""><strong>System Engineering tím</strong> pokračoval v študovaní dokumentácie, riešili sa funkcionality a štruktúra Dataverse.</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-do">To Do<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/fourth-record#to-do" class="hash-link" aria-label="Direct link to To Do" title="Direct link to To Do" translate="no">​</a></h2>
