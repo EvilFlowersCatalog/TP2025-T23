@@ -4,10 +4,37 @@
         <title>Team 23 Blog</title>
         <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog</link>
         <description>Team 23 Blog</description>
-        <lastBuildDate>Wed, 01 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Zápisnica zo stretnutia č. 13]]></title>
+            <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog/thirteenth-record</link>
+            <guid>https://EvilFlowersCatalog.dev/TP2025-T23/blog/thirteenth-record</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meeting 13]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Meeting 13" src="https://evilflowerscatalog.dev/TP2025-T23/assets/images/meeting13-46ca1e5f64d89da621095d08d66d6cd8.JPG" width="832" height="448" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podrobnosti">Podrobnosti<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/thirteenth-record#podrobnosti" class="hash-link" aria-label="Direct link to Podrobnosti" title="Direct link to Podrobnosti" translate="no">​</a></h2>
+<p><strong>Dátum:</strong> Streda 15.04.2026<br>
+<strong>Čas:</strong> 12:00<br>
+<strong>Miesto:</strong> FIIT STU 1.28<br>
+<strong>Vedúci tímu:</strong> Ing. Jakub Dubec<br>
+<strong>Typ stretnutia:</strong> Stretnutie vedúceho tímu a členov tímu<br>
+<strong>Zapisovateľ:</strong> Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="účasť">Účasť<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/thirteenth-record#%C3%BA%C4%8Das%C5%A5" class="hash-link" aria-label="Direct link to Účasť" title="Direct link to Účasť" translate="no">​</a></h2>
+<p>✅ Ing. Jakub Dubec<br>
+<!-- -->✅ Juraj Budinský - online<br>
+<!-- -->❌ Tomáš Tuan Bui Anh<br>
+<!-- -->✅ Richard Čerňanský - online<br>
+<!-- -->✅ Marek Fiľo<br>
+<!-- -->✅ Tomáš Horička<br>
+<!-- -->✅ Adriana Pikartová</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="priebeh-stretnutia">Priebeh stretnutia<a href="https://evilflowerscatalog.dev/TP2025-T23/blog/thirteenth-record#priebeh-stretnutia" class="hash-link" aria-label="Direct link to Priebeh stretnutia" title="Direct link to Priebeh stretnutia" translate="no">​</a></h2>
+<p><strong>System Engineering tím</strong> pokračoval v nasadzovaní a testovaní Dataverse, preberalo sa odovzdanie práce, mergovanie a dokumentácia.</p>
+<p><strong>UX tím</strong> dostal za úlohu navrhnúť systém výpožičiek. Existujúca implementácia výpožičiek bola vyhodnotená pomocou heuristickej evaluácie, na základe ktorej sa vytvorili user scenarios a user flows a následne low-fidelity prototyp. Prototyp bol odprezentovaný, prediskutovali sa možnosti dĺžky výpožičiek, rezervácia knihy v prípade nedostupnosti, predĺženie a predčasné vrátenie. Riešili sa tiež technické možnosti integrácie Readium Web kitu do PDF Viewera v Elvire. Do ďalšieho týždňa sa vytvorí high-fidelity prototyp.</p>]]></content:encoded>
+            <category>letný semester</category>
+        </item>
         <item>
             <title><![CDATA[Zápisnica zo stretnutia č. 12]]></title>
             <link>https://EvilFlowersCatalog.dev/TP2025-T23/blog/twelfth-record</link>
