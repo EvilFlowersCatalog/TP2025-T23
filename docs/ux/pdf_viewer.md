@@ -8,7 +8,7 @@ import ScreensCarousel from '@site/src/components/ScreensCarousel';
 Keďže veľa navrhovaných inteligentných funkcií sa týkalo PDF čítačky, rozhodli sme sa preskúmať túto časť Elviry, zhodnotiť súčasný dizajn, použiteľnosť, identifikovať problémy a navrhnúť inteligentné funkcie tak, aby zlepšili používateľský zážitok pri čítaní kníh, prípadne tiež vylepšili samotnú čítačku.
 
 ## Usability testing, card sorting a analýza
-Testovanie použiteľnosti PDF čítačky prebiehalo spolu s [user interview a concept testingom](./intelligent_features#user-interviews-a-concept-testing) inteligentných funkcií. Testovania sa zúčastnili 3 používatelia. Testovali sme dve verzie PDF čítačky - produkciu a development, keďže boli významne odlišné. Účastníci testovania dostali 13 rozličných úloh, ktoré pokrývali všetky funkcie PDF čítačky, pričom nie všetky úlohy sa dali vykonať v oboch verziách. Využili sme thinking aloud metódu, participanti počas úloh komentovali svoje myšlienky, pocity a problémy, ktoré sa vyskytli. Na záver sme použili card sorting metódu - používatelia mali ohodnotiť existujúce a navrhované funkcie PDF čítačky podľa toho, ako sú pre nich dôležité a užitočné.
+Testovanie použiteľnosti PDF čítačky prebiehalo spolu s [user interview a concept testingom](./intelligent_features) inteligentných funkcií. Testovania sa zúčastnili 3 používatelia. Testovali sme dve verzie PDF čítačky - produkciu a development, keďže boli významne odlišné. Účastníci testovania dostali 13 rozličných úloh, ktoré pokrývali všetky funkcie PDF čítačky, pričom nie všetky úlohy sa dali vykonať v oboch verziách. Využili sme thinking aloud metódu, participanti počas úloh komentovali svoje myšlienky, pocity a problémy, ktoré sa vyskytli. Na záver sme použili card sorting metódu - používatelia mali ohodnotiť existujúce a navrhované funkcie PDF čítačky podľa toho, ako sú pre nich dôležité a užitočné.
 
 **[Protokol](../../static/pdf/protocol_pdf_01.pdf)**.
 
@@ -38,7 +38,7 @@ PDF viewer bol tiež súčasťou predchádzajúceho [testovania](https://elvira.
 |        **2** | Pri kreslení náročné mazanie, chýbajúce šípky späť.                                                     | UX           |
 |        **2** | Vizuálna nekonzistencia, nevhodne zvolené farby, prekrývajúce sa ikony.                                 | UX           |
 |        **2** | Zdieľanie cez QR kód, neintuitívne, nepochopenie životnosti.                                            | UX           |
-|        **2** | Problémy s priblížením dokumentu, nefungujúce priblíženie cez touchpad a klávesové skratky.             | Technická    |
+|        **2** | Problémy s priblížením dokumentu, nefungujúce priblíženie cez touchpad a klávesové skratky.             | Technická/UX |
 |        **1** | Nepochopenie rozdielu medzi zavrieť a domov.                                                            | UX           |
 |        **1** | Nedostatok štýlov citácií.                                                                              | UX           |
 |        **1** | Nesprávne fungujúca funkcia tlačenia.                                                                   | Technická/UX |

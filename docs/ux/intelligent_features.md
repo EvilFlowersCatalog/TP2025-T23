@@ -181,7 +181,7 @@ export const lowfi_slides = [
 ## User interviews a Concept testing
 Hoci návrh inteligentných funkcií vychádzal z existujúceho používateľského výskumu, rozhodli sme sa dizajn proces podporiť ďalšou metódou. Realizovali sme používateľské rozhovory s cieľom zistiť ako ľudia pristupujú k organizácii kníh a učebných materiálov, digitálnym knižniciam a čítačkám kníh. Chceli sme identifikovať ich potreby a frustrácie. Pomocou concept testingu sme zisťovali ich názor na nami navrhované funkcie. Concept testing je metóda používateľského výskumu, ktorá sa zameriava na testovanie a získavanie spätnej väzby ku konceptom produktu v počiatočných fázach návrhu a prototypovania.
 
-Rozhovory prebehli s 3 účastníkmi a boli spojené s [testovaním PDF čítačky](./pdf_viewer#user-testing). Rozhovor bol semi-štruktúrovaný. 
+Rozhovory prebehli s 3 účastníkmi a boli spojené s [testovaním PDF čítačky](./pdf_viewer). Rozhovor bol semi-štruktúrovaný. 
 
 **[Nevyplnený protokol](../../static/pdf/protocol_if_01.pdf)**.
 
